@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<BodyTypeDef>
+		<defName>GethPecius</defName>
+		<label>Pecius</label>
+		<bodyNakedGraphicPath>Geth/Base/GethPecius</bodyNakedGraphicPath>
+	</BodyTypeDef>
+	<BodyTypeDef>
+		<defName>ME1GethRed</defName>
+		<label>Geth</label>
+		<bodyNakedGraphicPath>Geth/Base/ME1GethRed</bodyNakedGraphicPath>
+	</BodyTypeDef>
+	<BodyTypeDef>
+		<defName>ME1GethTrooper</defName>
+		<label>Geth Trooper</label>
+		<bodyNakedGraphicPath>Geth/Base/ME1GethTrooper</bodyNakedGraphicPath>
+	</BodyTypeDef>
+	<BodyTypeDef>
+		<defName>GethPyro</defName>
+		<label>Geth Pyro</label>
+		<bodyNakedGraphicPath>Geth/Base/GethPyro</bodyNakedGraphicPath>
+	</BodyTypeDef>
+	<BodyTypeDef>
+		<defName>GethInfiltrator</defName>
+		<label>Pecius</label>
+		<bodyNakedGraphicPath>Geth/Base/GethInfiltrator</bodyNakedGraphicPath>
+	</BodyTypeDef>
+	<BodyTypeDef>
+		<defName>GethTrooper</defName>
+		<label>Geth Trooper</label>
+		<bodyNakedGraphicPath>Geth/Base/GethTrooper</bodyNakedGraphicPath>
+	</BodyTypeDef>
+	<BodyTypeDef>
+		<defName>GethHunter</defName>
+		<label>Geth Hunter</label>
+		<bodyNakedGraphicPath>Geth/Base/GethHunter</bodyNakedGraphicPath>
+	</BodyTypeDef>
+	<BodyTypeDef>
+		<defName>GethRocketTrooper</defName>
+		<label>Geth Rocket Trooper</label>
+		<bodyNakedGraphicPath>Geth/Base/GethRocketTrooper</bodyNakedGraphicPath>
+	</BodyTypeDef>
+	<BodyTypeDef>
+		<defName>GethShockTrooper</defName>
+		<label>Geth Shock Trooper</label>
+		<bodyNakedGraphicPath>Geth/Base/GethShockTrooper</bodyNakedGraphicPath>
+	</BodyTypeDef>
+	<BodyTypeDef>
+		<defName>RedGeth</defName>
+		<label>Geth</label>
+		<bodyNakedGraphicPath>Geth/Base/Red</bodyNakedGraphicPath>
+	</BodyTypeDef>
+	<BodyTypeDef>
+		<defName>RedJuggernaut</defName>
+		<label>Geth Juggernaut</label>
+		<bodyNakedGraphicPath>Geth/Base/RedJuggernaut</bodyNakedGraphicPath>
+	</BodyTypeDef>
+</Defs>

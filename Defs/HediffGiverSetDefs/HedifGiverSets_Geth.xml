@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<HediffGiverSetDef>
+		<defName>GethStandard</defName>
+		<hediffGivers>
+			<li Class="Geth.HediffGiver_GethCoolantLeak">
+				<hediff>GethCoolantLeak</hediff>
+			</li>
+			<li Class="Geth.HediffGiver_GethOverheat">
+				<hediff>GethOverheat</hediff>
+				<cooldownHediff>GethThermalShutdown</cooldownHediff>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+</Defs>

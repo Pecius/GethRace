@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Gun_ChainShotgun"]/weaponTags</xpath>
+		<value>
+			<li>GethShotgun</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Gun_ChargeRifle"]/weaponTags</xpath>
+		<value>
+			<li>GethRifle</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Gun_GethIncendiaryLauncher"]/weaponTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Gun_GethIncendiaryLauncher"]</xpath>
+			<value>
+				<weaponTags>
+					<li>GethFlamer</li>
+				</weaponTags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Gun_GethIncendiaryLauncher"]/weaponTags</xpath>
+			<value>
+				<li>GethFlamer</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Gun_TripleRocket"]/weaponTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Gun_TripleRocket"]</xpath>
+			<value>
+				<weaponTags>
+					<li>GethRocket</li>
+				</weaponTags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Gun_TripleRocket"]/weaponTags</xpath>
+			<value>
+				<li>GethRocket</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Gun_Minigun"]/weaponTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Gun_Minigun"]</xpath>
+			<value>
+				<weaponTags>
+					<li>GethMinigun</li>
+				</weaponTags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Gun_Minigun"]/weaponTags</xpath>
+			<value>
+				<li>GethMinigun</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>
