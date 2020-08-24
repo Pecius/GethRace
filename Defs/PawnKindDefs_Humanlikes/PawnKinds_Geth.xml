@@ -106,7 +106,7 @@
 		<combatPower>100</combatPower>
 		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
-			<li>SniperRifle</li>
+			<li>GethJavelin</li>
 		</weaponTags>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
@@ -261,7 +261,7 @@
 		<combatPower>100</combatPower>
 		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
-			<li>SniperRifle</li>
+			<li>GethJavelin</li>
 		</weaponTags>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
