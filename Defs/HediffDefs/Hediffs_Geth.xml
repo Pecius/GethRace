@@ -3,7 +3,7 @@
 	<HediffDef>
 		<defName>GethLink</defName>
 		<label>geth link state</label>
-		<description>Ree</description>
+		<description>Links Geth together to improve efficiency.</description>
 		<defaultLabelColor>(0.436, 0.499, 0.635)</defaultLabelColor>
 		<hediffClass>HediffWithComps</hediffClass>
 		<initialSeverity>1</initialSeverity>
@@ -72,7 +72,7 @@
 	<HediffDef>
 		<defName>GethOverheat</defName>
 		<label>overheating</label>
-		<description>A</description>
+		<description>This unit has overheated, if not cooled down soon it will break down.</description>
 		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
 		<taleOnVisible>HeatstrokeRevealed</taleOnVisible>
 		<maxSeverity>0.62</maxSeverity>
@@ -129,7 +129,7 @@
 		<defName>GethThermalShutdown</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>thermal shutdown</label>
-		<description>A</description>
+		<description>This unit has overheated. It will take some time to cool and reboot.</description>
 		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
 		<maxSeverity>1.0</maxSeverity>
 		<comps>
@@ -166,7 +166,7 @@
 		<defName>GethCoolantLeak</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>coolant leak</label>
-		<description>A</description>
+		<description>This unit is leaking coolant, resulting in gradual heat accumulation.</description>
 		<maxSeverity>1.0</maxSeverity>
 		<tendable>true</tendable>
 		<!--
