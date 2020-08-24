@@ -124,6 +124,17 @@
 					</onAim>
 				</calls>
 			</li>
+			<linked>
+				<li>
+					<backstory>Geth_Trooper</backstory>
+					<calls>
+						<onAim>
+							<sound>Geth_Trooper_Aim</sound>
+							<chance>0.95</chance>
+						</onAim>
+					</calls>
+				</li>
+			</linked>
 			<li Class="AlienRacesExtensions.CompProperties_PawnLink">
 				<hediff>GethLink</hediff>
 				<networkDef>GethNetwork</networkDef>

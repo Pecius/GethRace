@@ -50,4 +50,105 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+	<!-- Geth Trooper Sounds -->
+	<SoundDef>
+		<defName>Geth_Trooper_Aim</defName>
+		<context>MapOnly</context>
+		<eventNames/>
+		<maxVoices>5</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn/Geth/Aiming/Trooper</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>80</min>
+					<max>80</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9541177</min>
+					<max>1.068824</max>
+				</pitchRange>
+				<repeatMode>NeverTwice</repeatMode>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>Geth_Trooper_Wounded</defName>
+		<context>MapOnly</context>
+		<eventNames/>
+		<maxVoices>5</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn/Geth/Wound/Trooper</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>80</min>
+					<max>80</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9541177</min>
+					<max>1.068824</max>
+				</pitchRange>
+				<repeatMode>NeverTwice</repeatMode>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>Geth_Trooper_Death</defName>
+		<context>MapOnly</context>
+		<eventNames/>
+		<maxVoices>5</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn/Geth/Death/Trooper</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>80</min>
+					<max>80</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9541177</min>
+					<max>1.068824</max>
+				</pitchRange>
+				<repeatMode>NeverTwice</repeatMode>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>Geth_Trooper_Call</defName>
+		<context>MapOnly</context>
+		<eventNames/>
+		<maxVoices>5</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn/Geth/Call/Trooper</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>80</min>
+					<max>80</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9541177</min>
+					<max>1.068824</max>
+				</pitchRange>
+				<repeatMode>NeverTwice</repeatMode>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 </Defs>
