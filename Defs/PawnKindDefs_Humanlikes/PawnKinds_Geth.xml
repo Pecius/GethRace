@@ -40,7 +40,7 @@
 		<combatPower>80</combatPower>
 		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
-			<li>GethRifle</li>
+			<li>GethPulseRifle</li>
 		</weaponTags>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
@@ -62,7 +62,7 @@
 		<combatPower>80</combatPower>
 		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
-			<li>GethRifle</li>
+			<li>GethPulseRifle</li>
 		</weaponTags>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
@@ -84,7 +84,7 @@
 		<combatPower>100</combatPower>
 		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
-			<li>GethShotgun</li>
+			<li>GethPlasmaShotgun</li>
 		</weaponTags>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
@@ -217,7 +217,7 @@
 		<combatPower>80</combatPower>
 		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
-			<li>GethRifle</li>
+			<li>GethPulseRifle</li>
 		</weaponTags>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
@@ -239,7 +239,7 @@
 		<combatPower>100</combatPower>
 		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
-			<li>GethShotgun</li>
+			<li>GethPlasmaShotgun</li>
 		</weaponTags>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
