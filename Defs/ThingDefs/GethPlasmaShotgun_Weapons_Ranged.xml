@@ -46,9 +46,12 @@
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
-				<Crafting>7</Crafting>
+				<Crafting>10</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>ChargedShot</researchPrerequisite>
+			<researchPrerequisite>PlasmaShotgunTechnology</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
 		</recipeMaker>
 		<weaponTags>
 			<li>GethPlasmaShotgun</li>

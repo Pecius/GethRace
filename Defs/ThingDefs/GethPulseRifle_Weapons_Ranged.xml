@@ -34,7 +34,7 @@
 			<WorkToMake>12000</WorkToMake>
 			<MarketValue>1400</MarketValue>
 			<Mass>1.4</Mass>
-			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyTouch>0.75</AccuracyTouch>
 			<AccuracyShort>0.80</AccuracyShort>
 			<AccuracyMedium>0.75</AccuracyMedium>
 			<AccuracyLong>0.70</AccuracyLong>
@@ -42,13 +42,16 @@
 		</statBases>
 		<costList>
 			<Plasteel>50</Plasteel>
-			<ComponentSpacer>4</ComponentSpacer>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
-				<Crafting>7</Crafting>
+				<Crafting>10</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>ChargedShot</researchPrerequisite>
+			<researchPrerequisite>PulseRifleTechnology</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
 		</recipeMaker>
 		<weaponTags>
 			<li>GethPulseRifle</li>

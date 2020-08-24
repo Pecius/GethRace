@@ -34,21 +34,24 @@
 			<WorkToMake>12000</WorkToMake>
 			<MarketValue>1400</MarketValue>
 			<Mass>1.4</Mass>
-			<AccuracyTouch>0.50</AccuracyTouch>
-			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
 			<AccuracyMedium>0.85</AccuracyMedium>
-			<AccuracyLong>0.95</AccuracyLong>
-			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+			<AccuracyLong>0.75</AccuracyLong>
+			<RangedWeapon_Cooldown>2.9</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
-			<Plasteel>50</Plasteel>
+			<Plasteel>60</Plasteel>
 			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
-				<Crafting>7</Crafting>
+				<Crafting>12</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>ChargedShot</researchPrerequisite>
+			<researchPrerequisite>JavelinTechnology</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
 		</recipeMaker>
 		<weaponTags>
 			<li>GethJavelin</li>
