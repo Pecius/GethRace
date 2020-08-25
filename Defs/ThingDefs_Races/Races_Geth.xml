@@ -150,7 +150,9 @@
 			</li>-->
 		</comps>
 		<modExtensions>
-			<li Class="AlienRacesExtensions.FeelsNoPain"/>
+			<li Class="AlienRacesExtensions.ExtensionsDef">
+				<feelsNoPain>true</feelsNoPain>
+			</li>
 		</modExtensions>
 	</ThingDef>
 	<AlienRace.ThingDef_AlienRace ParentName="BaseGeth">
