@@ -90,7 +90,6 @@
 				<li>
 					<def>HumanlikeAdult</def>
 					<minAge>0</minAge>
-					<soundDeath>GethDeath</soundDeath>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
@@ -122,6 +121,9 @@
 						<sound>GethAiming</sound>
 						<chance>0.95</chance>
 					</onAim>
+					<onDeath>
+						<sound>GethDeath</sound>
+					</onDeath>
 				</calls>
 				<linked>
 					<li>
@@ -131,6 +133,12 @@
 								<sound>Geth_Trooper_Aim</sound>
 								<chance>0.95</chance>
 							</onAim>
+							<onDeath>
+								<sound>Geth_Trooper_Death</sound>
+							</onDeath>
+							<onWounded>
+								<sound>Geth_Trooper_Wounded</sound>
+							</onWounded>
 						</calls>
 					</li>
 				</linked>
