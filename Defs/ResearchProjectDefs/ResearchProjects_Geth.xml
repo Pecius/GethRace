@@ -1,58 +1,52 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-
-  <!--===== Geth Pulse Rifle ====-->
-  
-  <ResearchProjectDef>
-    <tab>Geth_RTab</tab>
-    <defName>PulseRifleTechnology</defName>
-    <label>Pulse Rifle</label>
-    <description>Research the means to create geth pulse rifles.</description>
-    <baseCost>3000</baseCost>
-    <techLevel>Spacer</techLevel>
-	<requiredResearchFacilities>
-    <li>MultiAnalyzer</li>
-    </requiredResearchFacilities>
-	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <researchViewX>0.0</researchViewX>
-    <researchViewY>0.00</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <tab>Geth_RTab</tab>
-    <defName>PlasmaShotgunTechnology</defName>
-    <label>Plasma Shotgun</label>
-    <description>Research the means to create geth plasma shotguns.</description>
-    <baseCost>3500</baseCost>
-    <techLevel>Spacer</techLevel>
-	<requiredResearchFacilities>
-    <li>MultiAnalyzer</li>
-    </requiredResearchFacilities>
-	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-	<prerequisites>
-    <li>PulseRifleTechnology</li>
-    </prerequisites>
-    <researchViewX>1.20</researchViewX>
-    <researchViewY>0.80</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <tab>Geth_RTab</tab>
-    <defName>JavelinTechnology</defName>
-    <label>Javelin</label>
-    <description>Research the means to create geth javelins.</description>
-    <baseCost>4000</baseCost>
-    <techLevel>Spacer</techLevel>
-	<requiredResearchFacilities>
-    <li>MultiAnalyzer</li>
-    </requiredResearchFacilities>
-	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-	<prerequisites>
-    <li>PulseRifleTechnology</li>
-    </prerequisites>
-    <researchViewX>1.20</researchViewX>
-    <researchViewY>0.00</researchViewY>
-  </ResearchProjectDef>
-
+	<!--===== Geth Pulse Rifle ====-->
+	<ResearchProjectDef>
+		<tab>Geth_RTab</tab>
+		<defName>PulseRifleTechnology</defName>
+		<label>Pulse Rifle</label>
+		<description>Research the means to create geth pulse rifles.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>0.0</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<tab>Geth_RTab</tab>
+		<defName>PlasmaShotgunTechnology</defName>
+		<label>Plasma Shotgun</label>
+		<description>Research the means to create geth plasma shotguns.</description>
+		<baseCost>3500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>PulseRifleTechnology</li>
+		</prerequisites>
+		<researchViewX>1.20</researchViewX>
+		<researchViewY>0.80</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<tab>Geth_RTab</tab>
+		<defName>JavelinTechnology</defName>
+		<label>Javelin</label>
+		<description>Research the means to create geth javelins.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>PulseRifleTechnology</li>
+		</prerequisites>
+		<researchViewX>1.20</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
 </Defs>
