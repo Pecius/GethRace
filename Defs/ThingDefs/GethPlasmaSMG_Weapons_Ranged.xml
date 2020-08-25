@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- ================================= Pulse Rifle Bullet ==================================== -->
+	<!-- ================================= Plasma Bullet ==================================== -->
 	<ThingDef ParentName="BaseBullet">
-		<defName>Bullet_PulseRifle</defName>
-		<label>phasic slugs</label>
+		<defName>Bullet_PlasmaSMG</defName>
+		<label>superconducting toroids</label>
 		<graphicData>
 			<texPath>Projectile/PulseRifleProjectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>4</damageAmountBase>
-			<armorPenetrationBase>0.10</armorPenetrationBase>
-			<stoppingPower>1</stoppingPower>
+			<damageAmountBase>1</damageAmountBase>
+			<stoppingPower>0</stoppingPower>
 			<speed>70</speed>
 		</projectile>
 	</ThingDef>
 	<!-- ================================= Pulse Rifle Weapon ==================================== -->
-	<ThingDef ParentName="BaseHumanMakeableGun" Name="BaseGethPulseRifle">
-		<defName>Gun_GethPulseRifle</defName>
-		<label>Pulse rifle</label>
-		<description>Geth pulse rifles are comparable to a standard stock assault rifle, but finely balanced with low-recoil and incredibly high accuracy. The pulse rifle fires a rapid stream of light-weight slugs which are wrapped in a phasic envelope to increase their damage.</description>
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="BaseGethPlasmaSMG">
+		<defName>Gun_GethPlasmaSMG</defName>
+		<label>Plasma SMG</label>
+		<description>This submachine gun works on the same principles as the Spitfire: it shoots superconducting toroids that break apart on impact, retaining an electrical charge that flash-converts the shrapnel into plasma.</description>
 		<graphicData>
-			<texPath>WeaponRanged/GethPulseRifle</texPath>
+			<texPath>WeaponRanged/GethSMG</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<uiIconScale>1.4</uiIconScale>
@@ -33,28 +32,28 @@
 		<statBases>
 			<WorkToMake>12000</WorkToMake>
 			<MarketValue>1400</MarketValue>
-			<Mass>4.0</Mass>
-			<AccuracyTouch>0.55</AccuracyTouch>
-			<AccuracyShort>0.65</AccuracyShort>
-			<AccuracyMedium>0.75</AccuracyMedium>
-			<AccuracyLong>0.70</AccuracyLong>
-			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+			<Mass>1.4</Mass>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.45</AccuracyMedium>
+			<AccuracyLong>0.10</AccuracyLong>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
-			<Plasteel>50</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>30</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
-				<Crafting>10</Crafting>
+				<Crafting>6</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>PlasmaSMGTechnology</researchPrerequisite>
+			<researchPrerequisite>ChargedShot</researchPrerequisite>
 			<recipeUsers Inherit="False">
 				<li>FabricationBench</li>
 			</recipeUsers>
 		</recipeMaker>
 		<weaponTags>
-			<li>GethPulseRifle</li>
+			<li>GethPlasmaSMG</li>
 		</weaponTags>
 		<tradeability>None</tradeability>
 		<techLevel>Spacer</techLevel>
@@ -63,12 +62,12 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_PulseRifle</defaultProjectile>
+				<defaultProjectile>Bullet_PlasmaSMG</defaultProjectile>
 				<warmupTime>1.0</warmupTime>
-				<range>25</range>
-				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-				<burstShotCount>6</burstShotCount>
-				<soundCast>Shot_PulseRifle</soundCast>
+				<range>22.9</range>
+				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<burstShotCount>12</burstShotCount>
+				<soundCast>Shot_PlasmaSMG</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>

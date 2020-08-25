@@ -1,5 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	<!--===== Geth Plasma SMG ====-->
+	<ResearchProjectDef>
+		<tab>Geth_RTab</tab>
+		<defName>PlasmaSMGTechnology</defName>
+		<label>Plasma SMG</label>
+		<description>Research the means to create geth plasma smg's.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>0.0</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
 	<!--===== Geth Pulse Rifle ====-->
 	<ResearchProjectDef>
 		<tab>Geth_RTab</tab>
@@ -12,9 +27,13 @@
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<researchViewX>0.0</researchViewX>
+		<prerequisites>
+			<li>PlasmaSMGTechnology</li>
+		</prerequisites>
+		<researchViewX>1.20</researchViewX>
 		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>
+	<!--===== Geth Plasma Shotgun ====-->
 	<ResearchProjectDef>
 		<tab>Geth_RTab</tab>
 		<defName>PlasmaShotgunTechnology</defName>
@@ -32,6 +51,7 @@
 		<researchViewX>1.20</researchViewX>
 		<researchViewY>0.80</researchViewY>
 	</ResearchProjectDef>
+	<!--===== Geth Javelin ====-->
 	<ResearchProjectDef>
 		<tab>Geth_RTab</tab>
 		<defName>JavelinTechnology</defName>
@@ -46,7 +66,25 @@
 		<prerequisites>
 			<li>PulseRifleTechnology</li>
 		</prerequisites>
-		<researchViewX>1.20</researchViewX>
+		<researchViewX>2.40</researchViewX>
 		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+	<!--===== Geth Spitfire ====-->
+	<ResearchProjectDef>
+		<tab>Geth_RTab</tab>
+		<defName>SpitfireTechnology</defName>
+		<label>Spitfire</label>
+		<description>Research the means to create geth spitfire's.</description>
+		<baseCost>6000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>PlasmaShotgunTechnology</li>
+		</prerequisites>
+		<researchViewX>2.40</researchViewX>
+		<researchViewY>0.80</researchViewY>
 	</ResearchProjectDef>
 </Defs>

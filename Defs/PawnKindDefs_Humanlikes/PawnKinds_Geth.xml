@@ -3,7 +3,7 @@
 	<!-- Geth Platform Pawn -->
 	<PawnKindDef>
 		<defName>BaseGeth</defName>
-		<defaultFactionType>GethConsensus</defaultFactionType>
+		<defaultFactionType>PlayerColony</defaultFactionType>
 		<label>Geth</label>
 		<race>Geth</race>
 		<backstoryFiltersOverride>
@@ -18,9 +18,9 @@
 		<combatPower>80</combatPower>
 		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
-			<li>GethRifle</li>
+			<li>GethPulseRifle</li>
+			<li>GethPlasmaSMG</li>
 		</weaponTags>
-		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
 	<!-- Geth Trader Pawn -->
 	<PawnKindDef>
@@ -63,6 +63,7 @@
 		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>GethPulseRifle</li>
+			<li>GethPlasmaSMG</li>
 		</weaponTags>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
@@ -172,7 +173,7 @@
 		<combatPower>80</combatPower>
 		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
-			<li>GethMinigun</li>
+			<li>GethSpitfire</li>
 		</weaponTags>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
@@ -218,6 +219,7 @@
 		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>GethPulseRifle</li>
+			<li>GethPlasmaSMG</li>
 		</weaponTags>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
@@ -327,7 +329,7 @@
 		<combatPower>80</combatPower>
 		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
-			<li>GethMinigun</li>
+			<li>GethSpitfire</li>
 		</weaponTags>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>

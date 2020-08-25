@@ -75,7 +75,7 @@
 			<hasGenders>false</hasGenders>
 			<body>Geth</body>
 			<baseBodySize>1</baseBodySize>
-			<baseHealthScale>1.1</baseHealthScale>
+			<baseHealthScale>0.8</baseHealthScale>
 			<foodType>None</foodType>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<litterSizeCurve>

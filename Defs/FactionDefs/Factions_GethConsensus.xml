@@ -9,7 +9,7 @@
 	</FactionDef>
 	<FactionDef>
 		<defName>GethConsensus</defName>
-		<label>The Geth</label>
+		<label>Geth</label>
 		<description>Having travelled across the mysterious Perseus Veil, the Geth have landed on this rimworld.</description>
 		<pawnSingular>geth</pawnSingular>
 		<pawnsPlural>geth</pawnsPlural>
@@ -55,7 +55,7 @@
 			<li>Caravan_Outlander_Exotic</li>
 		</caravanTraderKinds>
 		<permanentEnemy>false</permanentEnemy>
-		<fixedName>The Geth</fixedName>
+		<fixedName>Geth</fixedName>
 		<techLevel>Spacer</techLevel>
 		<backstoryFilters>
 			<li>
