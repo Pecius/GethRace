@@ -176,6 +176,31 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+	<SoundDef>
+		<defName>Shot_Firestorm</defName>
+		<context>MapOnly</context>
+		<eventNames/>
+		<maxVoices>10</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn/Geth/Weapons/Firestorm</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>40</min>
+					<max>40</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9</min>
+					<max>1.2</max>
+				</pitchRange>
+				<repeatMode>NeverTwice</repeatMode>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 	<!-- Geth Trooper Sounds -->
 	<SoundDef>
 		<defName>Geth_Trooper_Aim</defName>
@@ -190,8 +215,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>80</min>
-					<max>80</max>
+					<min>40</min>
+					<max>40</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9541177</min>
@@ -215,8 +240,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>80</min>
-					<max>80</max>
+					<min>40</min>
+					<max>40</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9541177</min>
@@ -240,6 +265,57 @@
 					</li>
 				</grains>
 				<volumeRange>
+					<min>40</min>
+					<max>40</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9541177</min>
+					<max>1.068824</max>
+				</pitchRange>
+				<repeatMode>NeverTwice</repeatMode>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<!-- Geth Hunter Sounds -->
+	<SoundDef>
+		<defName>Geth_Hunter_Aim</defName>
+		<context>MapOnly</context>
+		<eventNames/>
+		<maxVoices>5</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn/Geth/Aiming/Hunter</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>40</min>
+					<max>40</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9541177</min>
+					<max>1.068824</max>
+				</pitchRange>
+				<repeatMode>NeverTwice</repeatMode>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>Geth_Hunter_Wounded</defName>
+		<context>MapOnly</context>
+		<eventNames/>
+		<maxVoices>5</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn/Geth/Wound/Hunter</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
 					<min>80</min>
 					<max>80</max>
 				</volumeRange>
@@ -253,7 +329,7 @@
 		</subSounds>
 	</SoundDef>
 	<SoundDef>
-		<defName>Geth_Trooper_Call</defName>
+		<defName>Geth_Hunter_Death</defName>
 		<context>MapOnly</context>
 		<eventNames/>
 		<maxVoices>5</maxVoices>
@@ -261,12 +337,164 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawn/Geth/Call/Trooper</clipFolderPath>
+						<clipFolderPath>Pawn/Geth/Death/Hunter</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>40</min>
+					<max>40</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9541177</min>
+					<max>1.068824</max>
+				</pitchRange>
+				<repeatMode>NeverTwice</repeatMode>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<!-- Geth Pyro Sounds -->
+	<SoundDef>
+		<defName>Geth_Pyro_Aim</defName>
+		<context>MapOnly</context>
+		<eventNames/>
+		<maxVoices>5</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn/Geth/Aiming/Pyro</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>40</min>
+					<max>40</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9541177</min>
+					<max>1.068824</max>
+				</pitchRange>
+				<repeatMode>NeverTwice</repeatMode>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>Geth_Pyro_Wounded</defName>
+		<context>MapOnly</context>
+		<eventNames/>
+		<maxVoices>5</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn/Geth/Wound/Pyro</clipFolderPath>
 					</li>
 				</grains>
 				<volumeRange>
 					<min>80</min>
 					<max>80</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9541177</min>
+					<max>1.068824</max>
+				</pitchRange>
+				<repeatMode>NeverTwice</repeatMode>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>Geth_Pyro_Death</defName>
+		<context>MapOnly</context>
+		<eventNames/>
+		<maxVoices>5</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn/Geth/Death/Pyro</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>40</min>
+					<max>40</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9541177</min>
+					<max>1.068824</max>
+				</pitchRange>
+				<repeatMode>NeverTwice</repeatMode>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<!-- Geth Prime Sounds -->
+	<SoundDef>
+		<defName>Geth_Prime_Aim</defName>
+		<context>MapOnly</context>
+		<eventNames/>
+		<maxVoices>5</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn/Geth/Aiming/Prime</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>40</min>
+					<max>40</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9541177</min>
+					<max>1.068824</max>
+				</pitchRange>
+				<repeatMode>NeverTwice</repeatMode>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>Geth_Prime_Wounded</defName>
+		<context>MapOnly</context>
+		<eventNames/>
+		<maxVoices>5</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn/Geth/Wound/Prime</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>80</min>
+					<max>80</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9541177</min>
+					<max>1.068824</max>
+				</pitchRange>
+				<repeatMode>NeverTwice</repeatMode>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>Geth_Prime_Death</defName>
+		<context>MapOnly</context>
+		<eventNames/>
+		<maxVoices>5</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn/Geth/Death/Prime</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>40</min>
+					<max>40</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9541177</min>

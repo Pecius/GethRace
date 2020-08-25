@@ -129,7 +129,7 @@
 		<combatPower>100</combatPower>
 		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
-			<li>GethFlamer</li>
+			<li>GethFirestorm</li>
 		</weaponTags>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
@@ -285,7 +285,7 @@
 		<combatPower>100</combatPower>
 		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
-			<li>GethFlamer</li>
+			<li>GethFirestorm</li>
 		</weaponTags>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
