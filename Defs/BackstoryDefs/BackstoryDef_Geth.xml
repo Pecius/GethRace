@@ -43,9 +43,9 @@
 			</li>
 		</disallowedTraits>
 	</AlienRace.BackstoryDef>
-	<!-- Geth Juggernaut Child -->
+	<!-- Geth Prime Child -->
 	<AlienRace.BackstoryDef>
-		<defName>Geth_JugChild</defName>
+		<defName>Geth_PrimeChild</defName>
 		<title>Geth</title>
 		<titleShort>Geth</titleShort>
 		<baseDescription>A geth before it uploads itself into a platform.</baseDescription>
@@ -67,7 +67,7 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
-			<li>GethJuggernautBackstory</li>
+			<li>GethPrimeBackstory</li>
 		</spawnCategories>
 		<forcedTraits>
 			<li>
@@ -406,15 +406,15 @@
 			</li>
 		</forcedTraits>
 	</AlienRace.BackstoryDef>
-	<!-- Geth Juggernaut Adult -->
+	<!-- Geth Prime Adult -->
 	<AlienRace.BackstoryDef>
-		<defName>Geth_Juggernaut</defName>
-		<title>Geth Juggernaut</title>
-		<titleShort>Juggernaut</titleShort>
-		<baseDescription>Geth Juggernauts are the heavy weapon platforms employed by geth forces when heavier firepower is needed.</baseDescription>
-		<bodyTypeMale>RedJuggernaut</bodyTypeMale>
-		<bodyTypeFemale>RedJuggernaut</bodyTypeFemale>
-		<bodyTypeGlobal>RedJuggernaut</bodyTypeGlobal>
+		<defName>Geth_Prime</defName>
+		<title>Geth Prime</title>
+		<titleShort>Prime</titleShort>
+		<baseDescription>Geth Primes are heavy geth platforms that serve as command units on the battlefield.</baseDescription>
+		<bodyTypeMale>GethPrime</bodyTypeMale>
+		<bodyTypeFemale>GethPrime</bodyTypeFemale>
+		<bodyTypeGlobal>GethPrime</bodyTypeGlobal>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<li>
@@ -427,7 +427,7 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
-			<li>GethJuggernautBackstory</li>
+			<li>GethPrimeBackstory</li>
 		</spawnCategories>
 		<relationSettings>
 			<relationChanceModifierLover>0</relationChanceModifierLover>

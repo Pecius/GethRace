@@ -157,14 +157,14 @@
 	</PawnKindDef>
 	<!-- Geth Juggernaut Pawn -->
 	<PawnKindDef>
-		<defName>BaseGethJuggernaut</defName>
+		<defName>BaseGethPrime</defName>
 		<defaultFactionType>GethConsensus</defaultFactionType>
-		<label>Geth Juggernaut</label>
+		<label>Geth Prime</label>
 		<race>Geth</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>GethJuggernautBackstory</li>
+					<li>GethPrimeBackstory</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -313,14 +313,14 @@
 	</PawnKindDef>
 	<!-- Heretic Geth Juggernaut Pawn -->
 	<PawnKindDef>
-		<defName>BaseHereticGethJuggernaut</defName>
+		<defName>BaseHereticGethPrime</defName>
 		<defaultFactionType>HereticGeth</defaultFactionType>
-		<label>Geth Juggernaut</label>
+		<label>Geth Prime</label>
 		<race>Geth</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>GethJuggernautBackstory</li>
+					<li>GethPrimeBackstory</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>

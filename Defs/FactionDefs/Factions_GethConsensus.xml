@@ -66,7 +66,7 @@
 					<li>GethInfiltratorBackstory</li>
 					<li>GethPyroBackstory</li>
 					<li>GethRocketTrooperBackstory</li>
-					<li>GethJuggernautBackstory</li>
+					<li>GethPrimeBackstory</li>
 				</categories>
 			</li>
 		</backstoryFilters>
@@ -91,7 +91,7 @@
 					<BaseGethInfiltrator>50</BaseGethInfiltrator>
 					<BaseGethPyro>50</BaseGethPyro>
 					<BaseGethRocketTrooper>50</BaseGethRocketTrooper>
-					<BaseGethJuggernaut>40</BaseGethJuggernaut>
+					<BaseGethPrime>40</BaseGethPrime>
 				</options>
 			</li>
 			<li>
@@ -103,7 +103,7 @@
 					<BaseGethInfiltrator>50</BaseGethInfiltrator>
 					<BaseGethPyro>50</BaseGethPyro>
 					<BaseGethRocketTrooper>50</BaseGethRocketTrooper>
-					<BaseGethJuggernaut>40</BaseGethJuggernaut>
+					<BaseGethPrime>40</BaseGethPrime>
 				</options>
 			</li>
 			<li>
@@ -122,7 +122,7 @@
 					<BaseGethInfiltrator>50</BaseGethInfiltrator>
 					<BaseGethPyro>50</BaseGethPyro>
 					<BaseGethRocketTrooper>50</BaseGethRocketTrooper>
-					<BaseGethJuggernaut>40</BaseGethJuggernaut>
+					<BaseGethPrime>40</BaseGethPrime>
 				</guards>
 			</li>
 			<li>
@@ -135,7 +135,7 @@
 					<BaseGethInfiltrator>50</BaseGethInfiltrator>
 					<BaseGethPyro>50</BaseGethPyro>
 					<BaseGethRocketTrooper>50</BaseGethRocketTrooper>
-					<BaseGethJuggernaut>40</BaseGethJuggernaut>
+					<BaseGethPrime>40</BaseGethPrime>
 				</options>
 			</li>
 		</pawnGroupMakers>

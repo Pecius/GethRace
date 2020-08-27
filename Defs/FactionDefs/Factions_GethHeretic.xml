@@ -47,7 +47,7 @@
 					<li>GethInfiltratorBackstory</li>
 					<li>GethPyroBackstory</li>
 					<li>GethRocketTrooperBackstory</li>
-					<li>GethJuggernautBackstory</li>
+					<li>GethPrimeBackstory</li>
 				</categories>
 			</li>
 		</backstoryFilters>
@@ -72,7 +72,7 @@
 					<BaseHereticGethInfiltrator>50</BaseHereticGethInfiltrator>
 					<BaseHereticGethPyro>50</BaseHereticGethPyro>
 					<BaseHereticGethRocketTrooper>50</BaseHereticGethRocketTrooper>
-					<BaseHereticGethJuggernaut>40</BaseHereticGethJuggernaut>
+					<BaseHereticGethPrime>40</BaseHereticGethPrime>
 				</options>
 			</li>
 			<li>
@@ -85,7 +85,7 @@
 					<BaseHereticGethInfiltrator>50</BaseHereticGethInfiltrator>
 					<BaseHereticGethPyro>50</BaseHereticGethPyro>
 					<BaseHereticGethRocketTrooper>50</BaseHereticGethRocketTrooper>
-					<BaseHereticGethJuggernaut>40</BaseHereticGethJuggernaut>
+					<BaseHereticGethPrime>40</BaseHereticGethPrime>
 				</options>
 			</li>
 		</pawnGroupMakers>

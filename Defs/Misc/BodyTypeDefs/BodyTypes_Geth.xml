@@ -22,7 +22,7 @@
 	</BodyTypeDef>
 	<BodyTypeDef>
 		<defName>GethInfiltrator</defName>
-		<label>Pecius</label>
+		<label>Geth Infiltrator</label>
 		<bodyNakedGraphicPath>Geth/Base/GethInfiltrator</bodyNakedGraphicPath>
 	</BodyTypeDef>
 	<BodyTypeDef>
@@ -51,8 +51,8 @@
 		<bodyNakedGraphicPath>Geth/Base/Red</bodyNakedGraphicPath>
 	</BodyTypeDef>
 	<BodyTypeDef>
-		<defName>RedJuggernaut</defName>
-		<label>Geth Juggernaut</label>
-		<bodyNakedGraphicPath>Geth/Base/RedJuggernaut</bodyNakedGraphicPath>
+		<defName>GethPrime</defName>
+		<label>Geth Prime</label>
+		<bodyNakedGraphicPath>Geth/Base/GethPrime</bodyNakedGraphicPath>
 	</BodyTypeDef>
 </Defs>
