@@ -164,20 +164,9 @@
 	</HediffDef>
 	<HediffDef>
 		<defName>GethCoolantLeak</defName>
-		<hediffClass>HediffWithComps</hediffClass>
 		<label>coolant leak</label>
 		<description>This unit is leaking coolant, resulting in gradual heat accumulation.</description>
 		<maxSeverity>1.0</maxSeverity>
-		<tendable>true</tendable>
-		<!--
-		<comps>
-			<li Class="HediffCompProperties_TendDuration">
-				<showTendQuality>false</showTendQuality>
-				<tendAllAtOnce>true</tendAllAtOnce>
-				<disappearsAtTotalTendQuality>0.01</disappearsAtTotalTendQuality>
-			</li>
-		</comps>
-		-->
 		<stages>
 			<li>
 				<label>minor</label>

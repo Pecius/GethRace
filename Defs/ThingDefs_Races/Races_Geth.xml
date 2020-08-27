@@ -113,6 +113,7 @@
 		</race>
 		<recipes>
 			<li>Euthanize</li>
+			<li>GethRefillCoolant</li>
 		</recipes>
 		<comps>
 			<li Class="AlienRacesExtensions.SapientCalls">
