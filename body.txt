@@ -61,6 +61,7 @@ Part BlueBox(BaseSolid):
 	
 Part PowerCell(BaseSolid):
 	hitPoints = 20
+	tags = "GethPowerCell",
 	
 
 # Legs

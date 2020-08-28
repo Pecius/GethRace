@@ -126,6 +126,9 @@
 	<BodyPartDef ParentName="GethBaseSolid">
 		<defName>GethPowerCell</defName>
 		<label>power cell</label>
+		<tags>
+			<li>GethPowerCell</li>
+		</tags>
 		<hitPoints>20</hitPoints>
 	</BodyPartDef>
 	<BodyPartDef ParentName="GethBaseTissue">

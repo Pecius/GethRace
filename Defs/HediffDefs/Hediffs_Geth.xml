@@ -245,4 +245,65 @@
 			</li>
 		</stages>
 	</HediffDef>
+	<HediffDef>
+		<defName>GethEmergencyPower</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>emergency power</label>
+		<description>This unit lost its primary power source and must have it restored before the emergency power is depleted.</description>
+		<defaultLabelColor>(1.0, 0.0, 0.0)</defaultLabelColor>
+		<maxSeverity>1.0</maxSeverity>
+		<lethalSeverity>1.0</lethalSeverity>
+		<initialSeverity>0.01</initialSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>0.66</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>minor</label>
+				<lifeThreatening>true</lifeThreatening>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.45</minSeverity>
+				<label>major</label>
+				<lifeThreatening>true</lifeThreatening>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.75</minSeverity>
+				<label>critical</label>
+				<lifeThreatening>true</lifeThreatening>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>1.0</minSeverity>
+				<label>depleted</label>
+				<lifeThreatening>true</lifeThreatening>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>

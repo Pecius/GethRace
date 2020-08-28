@@ -12,4 +12,7 @@
 	<BodyPartTagDef>
 		<defName>GethHeatExchanger</defName>
 	</BodyPartTagDef>
+	<BodyPartTagDef>
+		<defName>GethPowerCell</defName>
+	</BodyPartTagDef>
 </Defs>
