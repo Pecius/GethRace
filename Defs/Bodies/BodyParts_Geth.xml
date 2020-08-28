@@ -144,6 +144,7 @@
 		<label>sound receptor</label>
 		<tags>
 			<li>HearingSource</li>
+			<li>GethSensor</li>
 		</tags>
 		<hitPoints>16</hitPoints>
 	</BodyPartDef>
@@ -189,6 +190,7 @@
 		<label>visual receptor</label>
 		<tags>
 			<li>SightSource</li>
+			<li>GethSensor</li>
 		</tags>
 		<hitPoints>15</hitPoints>
 	</BodyPartDef>

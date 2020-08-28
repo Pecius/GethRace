@@ -306,4 +306,37 @@
 			</li>
 		</stages>
 	</HediffDef>
+	<HediffDef>
+		<defName>GethMissingSensors</defName>
+		<label>missing sensors</label>
+		<description>This unit has lost all of its sensory inputs and is unable to function correctly.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+		<initialSeverity>0.1</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>1.0</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_CauseMentalState">
+				<humanMentalState>GethSensorlessWander</humanMentalState>
+				<letterDef>NegativeEvent</letterDef>
+				<mtbDaysToCauseMentalState>0.0001</mtbDaysToCauseMentalState>
+			</li>
+		</comps>
+		<stages>
+			<li>
+			</li>
+			<li>
+				<minSeverity>1.0</minSeverity>
+				<label>shut down</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>

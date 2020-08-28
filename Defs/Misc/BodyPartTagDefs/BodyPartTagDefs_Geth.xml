@@ -15,4 +15,7 @@
 	<BodyPartTagDef>
 		<defName>GethPowerCell</defName>
 	</BodyPartTagDef>
+	<BodyPartTagDef>
+		<defName>GethSensor</defName>
+	</BodyPartTagDef>
 </Defs>

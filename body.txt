@@ -40,11 +40,11 @@ Part HeatExchanger(BaseCoolantSystem):
 
 Part VisualReceptor(BaseSolid):
 	hitPoints = 15
-	tags = "SightSource",
+	tags = "SightSource", "GethSensor"
 	
 Part SoundReceptor(BaseSolid):
 	hitPoints = 16
-	tags = "HearingSource",
+	tags = "HearingSource", "GethSensor"
 
 Part Speaker(BaseSolid):
 	hitPoints = 20

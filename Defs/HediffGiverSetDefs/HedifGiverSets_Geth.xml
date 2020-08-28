@@ -23,6 +23,17 @@
 							</points>
 						</curve>
 					</li>
+					<li>
+						<tag>GethSensor</tag>
+						<hediff>GethMissingSensors</hediff>
+						<mode>AddRemove</mode>
+						<curve>
+							<points>
+								<li>(0, 1)</li>
+								<li>(0.0000001, 0)</li>
+							</points>
+						</curve>
+					</li>
 				</rules>
 			</li>
 		</hediffGivers>
