@@ -69,7 +69,7 @@
 				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
 				<range>25.9</range>
 				<burstShotCount>1</burstShotCount>
-				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCast>Shot_ML77</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>14</muzzleFlashScale>
 			</li>

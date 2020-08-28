@@ -201,6 +201,31 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+	<SoundDef>
+		<defName>Shot_ML77</defName>
+		<context>MapOnly</context>
+		<eventNames/>
+		<maxVoices>10</maxVoices>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Pawn/Geth/Weapons/ML77</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>40</min>
+					<max>40</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9</min>
+					<max>1.2</max>
+				</pitchRange>
+				<repeatMode>NeverTwice</repeatMode>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 	<!-- Geth Trooper Sounds -->
 	<SoundDef>
 		<defName>Geth_Trooper_Aim</defName>
