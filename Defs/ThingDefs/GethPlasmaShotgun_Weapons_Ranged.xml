@@ -19,7 +19,7 @@
 	<!-- ================================= Pulse Rifle Weapon ==================================== -->
 	<ThingDef ParentName="BaseHumanMakeableGun" Name="BaseGethPlasmaShotgun">
 		<defName>Gun_GethPlasmaShotgun</defName>
-		<label>Pulse rifle</label>
+		<label>Plasma shotgun</label>
 		<description>This three-barreled geth weapon fires miniature but potent cluster rounds of superconducting projectiles and has a longer range than standard shotguns. A two-stage trigger system allows for either quick-fire capacitors or a charge-and-release attack to electrify the projectiles as they exit the weapon. As the rounds hit the target, they fragment and electricity arcs between the pieces, flash-converting the air to conductive plasma. The resulting impact, heat, and electrical charge overloads shields and barriers and causes massive trauma to unarmored targets..</description>
 		<graphicData>
 			<texPath>WeaponRanged/GethPlasmaShotgun</texPath>

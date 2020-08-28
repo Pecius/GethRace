@@ -48,7 +48,7 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>PlasmaSMGTechnology</researchPrerequisite>
+			<researchPrerequisite>PulseRifleTechnology</researchPrerequisite>
 			<recipeUsers Inherit="False">
 				<li>FabricationBench</li>
 			</recipeUsers>

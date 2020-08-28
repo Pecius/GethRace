@@ -43,13 +43,12 @@
 		</statBases>
 		<costList>
 			<Steel>50</Steel>
-			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>PlasmaSMGTechnology</researchPrerequisite>
+			<researchPrerequisite>ML77Technology</researchPrerequisite>
 			<recipeUsers Inherit="False">
 				<li>FabricationBench</li>
 			</recipeUsers>

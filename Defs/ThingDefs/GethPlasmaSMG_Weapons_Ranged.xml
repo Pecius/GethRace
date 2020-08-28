@@ -47,7 +47,7 @@
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>ChargedShot</researchPrerequisite>
+			<researchPrerequisite>PlasmaSMGTechnology</researchPrerequisite>
 			<recipeUsers Inherit="False">
 				<li>FabricationBench</li>
 			</recipeUsers>

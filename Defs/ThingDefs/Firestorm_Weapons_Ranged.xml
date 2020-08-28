@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- ================================= Pulse Rifle Bullet ==================================== -->
+	<!-- ================================= M-451 Firestorm Bullet ==================================== -->
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_FireFlame</defName>
 		<label>flame</label>
@@ -16,7 +16,7 @@
 			<speed>100</speed>
 		</projectile>
 	</ThingDef>
-	<!-- ================================= Pulse Rifle Weapon ==================================== -->
+	<!-- ================================= M-451 Firestorm Weapon ==================================== -->
 	<ThingDef ParentName="BaseHumanMakeableGun" Name="BaseFirestorm">
 		<defName>Gun_Firestorm</defName>
 		<label>M-451 Firestorm</label>
@@ -48,7 +48,7 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>PlasmaSMGTechnology</researchPrerequisite>
+			<researchPrerequisite>FirestormTechnology</researchPrerequisite>
 			<recipeUsers Inherit="False">
 				<li>FabricationBench</li>
 			</recipeUsers>

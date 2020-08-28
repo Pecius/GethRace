@@ -5,13 +5,16 @@
 		<tab>Geth_RTab</tab>
 		<defName>PlasmaSMGTechnology</defName>
 		<label>Plasma SMG</label>
-		<description>Research the means to create geth plasma smg's.</description>
+		<description>Research the means to manufacture geth plasma smg's.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ChargedShot</li>
+		</prerequisites>
 		<researchViewX>0.0</researchViewX>
 		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>
@@ -20,7 +23,7 @@
 		<tab>Geth_RTab</tab>
 		<defName>PulseRifleTechnology</defName>
 		<label>Pulse Rifle</label>
-		<description>Research the means to create geth pulse rifles.</description>
+		<description>Research the means to manufacture geth pulse rifles.</description>
 		<baseCost>3000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchFacilities>
@@ -38,7 +41,7 @@
 		<tab>Geth_RTab</tab>
 		<defName>PlasmaShotgunTechnology</defName>
 		<label>Plasma Shotgun</label>
-		<description>Research the means to create geth plasma shotguns.</description>
+		<description>Research the means to manufacture geth plasma shotguns.</description>
 		<baseCost>3500</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchFacilities>
@@ -56,7 +59,7 @@
 		<tab>Geth_RTab</tab>
 		<defName>JavelinTechnology</defName>
 		<label>Javelin</label>
-		<description>Research the means to create geth javelins.</description>
+		<description>Research the means to manufacture geth javelins.</description>
 		<baseCost>4000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchFacilities>
@@ -74,7 +77,7 @@
 		<tab>Geth_RTab</tab>
 		<defName>SpitfireTechnology</defName>
 		<label>Spitfire</label>
-		<description>Research the means to create geth spitfire's.</description>
+		<description>Research the means to manufacture geth spitfire's.</description>
 		<baseCost>6000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchFacilities>
@@ -86,5 +89,35 @@
 		</prerequisites>
 		<researchViewX>2.40</researchViewX>
 		<researchViewY>0.80</researchViewY>
+	</ResearchProjectDef>
+		<!--===== M-451 Firestorm ====-->
+	<ResearchProjectDef>
+		<tab>Geth_RTab</tab>
+		<defName>FirestormTechnology</defName>
+		<label>M-451 Firestorm</label>
+		<description>Research the means to manufacture M-451 Firestorms.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>0.0</researchViewX>
+		<researchViewY>0.80</researchViewY>
+	</ResearchProjectDef>
+			<!--===== ML-77 Missile Launcher ====-->
+	<ResearchProjectDef>
+		<tab>Geth_RTab</tab>
+		<defName>ML77Technology</defName>
+		<label>ML-77 Missile Launcher</label>
+		<description>Research the means to manufacture ML-77 Missile Launchers.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>0.0</researchViewX>
+		<researchViewY>1.60</researchViewY>
 	</ResearchProjectDef>
 </Defs>
