@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Geth Prime Child -->
+	<AlienRace.BackstoryDef>
+		<defName>Geth_PrimeChild</defName>
+		<title>Geth</title>
+		<titleShort>Geth</titleShort>
+		<baseDescription>A geth before it uploads itself into a platform.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>GethPrimeBackstory</li>
+		</spawnCategories>
+		<forcedTraits>
+			<li>
+				<defName>Asexual</defName>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Tough</defName>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Gay</defName>
+			</li>
+		</disallowedTraits>
+	</AlienRace.BackstoryDef>
+	<!-- Geth Prime Adult -->
+	<AlienRace.BackstoryDef>
+		<defName>Geth_Prime</defName>
+		<title>Geth Prime</title>
+		<titleShort>Prime</titleShort>
+		<baseDescription>Geth Primes are heavy geth platforms that serve as command units on the battlefield.</baseDescription>
+		<bodyTypeMale>GethPrime</bodyTypeMale>
+		<bodyTypeFemale>GethPrime</bodyTypeFemale>
+		<bodyTypeGlobal>GethPrime</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>GethPrimeBackstory</li>
+		</spawnCategories>
+		<relationSettings>
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
+		<forcedTraits>
+			<li>
+				<defName>Asexual</defName>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Tough</defName>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+</Defs>

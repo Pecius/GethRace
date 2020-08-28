@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Geth Pyro Child -->
+	<AlienRace.BackstoryDef>
+		<defName>Geth_PyroChild</defName>
+		<title>Geth</title>
+		<titleShort>Geth</titleShort>
+		<baseDescription>A geth before it uploads itself into a platform.</baseDescription>
+		<bodyTypeMale>GethPyro</bodyTypeMale>
+		<bodyTypeFemale>GethPyro</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>GethPyroBackstory</li>
+		</spawnCategories>
+		<forcedTraits>
+			<li>
+				<defName>Asexual</defName>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Nimble</defName>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Gay</defName>
+			</li>
+		</disallowedTraits>
+	</AlienRace.BackstoryDef>
+	<!-- Geth Pyro Adult -->
+	<AlienRace.BackstoryDef>
+		<defName>Geth_Pyro</defName>
+		<title>Geth Pyro</title>
+		<titleShort>Pyro</titleShort>
+		<baseDescription>Geth Pyro's are specilised units that use incendiary launchers to burn their foes.</baseDescription>
+		<bodyTypeMale>GethPyro</bodyTypeMale>
+		<bodyTypeFemale>GethPyro</bodyTypeFemale>
+		<bodyTypeGlobal>GethPyro</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>GethPyroBackstory</li>
+		</spawnCategories>
+		<relationSettings>
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
+		<forcedTraits>
+			<li>
+				<defName>Asexual</defName>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<defName>Nimble</defName>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+</Defs>

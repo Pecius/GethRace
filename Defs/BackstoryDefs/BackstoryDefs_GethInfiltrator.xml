@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Geth Infiltrator Child -->
+	<AlienRace.BackstoryDef>
+		<defName>Geth_InfiltratorChild</defName>
+		<title>Geth</title>
+		<titleShort>Geth</titleShort>
+		<baseDescription>A geth before it uploads itself into a platform.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>GethInfiltratorBackstory</li>
+		</spawnCategories>
+		<forcedTraits>
+			<li>
+				<defName>Asexual</defName>
+			</li>
+			<li>
+				<defName>FastLearner</defName>
+			</li>
+			<li>
+				<defName>Nimble</defName>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Gay</defName>
+			</li>
+		</disallowedTraits>
+	</AlienRace.BackstoryDef>
+	<!-- Geth Infiltrator Adult -->
+	<AlienRace.BackstoryDef>
+		<defName>Geth_Infiltrator</defName>
+		<title>Geth Infiltrator</title>
+		<titleShort>Infiltrator</titleShort>
+		<baseDescription>Geth Infiltrators are a geth subtype, similar to hunters but designed for ranged combat.</baseDescription>
+		<bodyTypeMale>GethInfiltrator</bodyTypeMale>
+		<bodyTypeFemale>GethInfiltrator</bodyTypeFemale>
+		<bodyTypeGlobal>GethInfiltrator</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>10</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>GethInfiltratorBackstory</li>
+		</spawnCategories>
+		<relationSettings>
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
+		<forcedTraits>
+			<li>
+				<defName>Asexual</defName>
+			</li>
+			<li>
+				<defName>FastLearner</defName>
+			</li>
+			<li>
+				<defName>Nimble</defName>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+</Defs>
