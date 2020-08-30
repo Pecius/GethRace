@@ -76,6 +76,7 @@
 			<body>Geth</body>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>0.8</baseHealthScale>
+			<fleshType>GethFlesh</fleshType>
 			<foodType>None</foodType>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<litterSizeCurve>
