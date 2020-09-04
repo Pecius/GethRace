@@ -5,7 +5,7 @@
 		<defName>GethLinkRange</defName>
 		<label>link range</label>
 		<listOrder>123</listOrder>
-		<workerClass>AlienRacesExtensions.PawnCapacityWorker_GethLinkRange</workerClass>
+		<workerClass>PawnExtensions.PawnCapacityWorker_GethLinkRange</workerClass>
 	</PawnCapacityDef>
 	-->
 	<PawnCapacityDef>

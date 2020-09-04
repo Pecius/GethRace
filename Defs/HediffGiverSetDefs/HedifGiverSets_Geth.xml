@@ -10,7 +10,7 @@
 				<hediff>GethOverheat</hediff>
 				<cooldownHediff>GethThermalShutdown</cooldownHediff>
 			</li>
-			<li Class="AlienRacesExtensions.HediffGiver_PartState">
+			<li Class="PawnExtensions.HediffGiver_PartState">
 				<rules>
 					<li>
 						<tag>GethPowerCell</tag>

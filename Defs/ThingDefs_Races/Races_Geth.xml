@@ -118,7 +118,7 @@
 			<li>GethRefillCoolant</li>
 		</recipes>
 		<comps>
-			<li Class="AlienRacesExtensions.SapientCalls">
+			<li Class="PawnExtensions.SapientCalls">
 				<calls>
 					<onAim>
 						<sound>GethAiming</sound>
@@ -221,7 +221,7 @@
 					</li>
 				</linked>
 			</li>
-			<li Class="AlienRacesExtensions.CompProperties_PawnLink">
+			<li Class="PawnExtensions.CompProperties_PawnLink">
 				<hediff>GethLink</hediff>
 				<networkDef>GethNetwork</networkDef>
 				<statMaxLinked>GethLinkMaxLinked</statMaxLinked>
@@ -229,14 +229,14 @@
 				<statRepeater>GethLinkRepeater</statRepeater>
 				<part>GethBlueBox</part>
 			</li>
-			<!--<li Class="AlienRacesExtensions.RaceRenamer">
+			<!--<li Class="PawnExtensions.RaceRenamer">
 				<capacities>
 					<Consciousness>Data processing</Consciousness>
 				</capacities>
 			</li>-->
 		</comps>
 		<modExtensions>
-			<li Class="AlienRacesExtensions.ExtensionsDef">
+			<li Class="PawnExtensions.ExtensionsDef">
 				<feelsNoPain>true</feelsNoPain>
 				<hasPassions>false</hasPassions>
 			</li>
