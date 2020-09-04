@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	<StatCategoryDef>
+		<defName>GethStats</defName>
+		<label>Geth</label>
+		<displayOrder>13</displayOrder>
+	</StatCategoryDef>
 	<StatDef>
 		<defName>GethLinkRangeBase</defName>
 		<workerClass>AlienRacesExtensions.StatWorker_PawnLink</workerClass>
 		<label>geth link range</label>
 		<description>The range at which geth can be linked at.</description>
-		<category>BasicsPawn</category>
+		<category>GethStats</category>
 		<defaultBaseValue>50</defaultBaseValue>
 		<minValue>0</minValue>
 		<toStringStyle>Integer</toStringStyle>
@@ -24,7 +29,7 @@
 		<workerClass>AlienRacesExtensions.StatWorker_PawnLink</workerClass>
 		<label>geth link max linked</label>
 		<description>The max number of linked units.</description>
-		<category>BasicsPawn</category>
+		<category>GethStats</category>
 		<defaultBaseValue>4</defaultBaseValue>
 		<minValue>0</minValue>
 		<toStringStyle>Integer</toStringStyle>
@@ -35,7 +40,7 @@
 		<workerClass>AlienRacesExtensions.StatWorker_PawnLinkRepeater</workerClass>
 		<label>geth link repeater</label>
 		<description>Can act as a link repeater.</description>
-		<category>BasicsPawn</category>
+		<category>GethStats</category>
 		<defaultBaseValue>0</defaultBaseValue>
 		<minValue>0</minValue>
 		<maxValue>1</maxValue>
