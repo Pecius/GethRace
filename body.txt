@@ -169,7 +169,7 @@ Record Foot:
 	parts:
 		Toe["big"] coverage = 0.09
 		Toe["second"] coverage = 0.09
-		Toe["pinky"] rename coverage = 0.06
+		Toe["pinky"] coverage = 0.06
 		
 Record Leg:
 	part = Leg

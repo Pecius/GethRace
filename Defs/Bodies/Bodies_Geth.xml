@@ -343,7 +343,7 @@
 								</li>
 								<li>
 									<def>GethToe</def>
-									<customLabel>left pinky</customLabel>
+									<customLabel>left pinky toe</customLabel>
 									<coverage>0.06</coverage>
 									<groups>
 										<li>Feet</li>
@@ -415,7 +415,7 @@
 								</li>
 								<li>
 									<def>GethToe</def>
-									<customLabel>right pinky</customLabel>
+									<customLabel>right pinky toe</customLabel>
 									<coverage>0.06</coverage>
 									<groups>
 										<li>Feet</li>
