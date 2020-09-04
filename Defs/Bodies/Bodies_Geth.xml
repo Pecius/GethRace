@@ -207,6 +207,13 @@
 					</parts>
 				</li>
 				<li>
+					<def>GethAntenna</def>
+					<coverage>0.08</coverage>
+					<groups>
+						<li>Torso</li>
+					</groups>
+				</li>
+				<li>
 					<def>GethInternalStructure</def>
 					<coverage>0.2</coverage>
 					<depth>Inside</depth>

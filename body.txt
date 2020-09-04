@@ -52,7 +52,7 @@ Part Speaker(BaseSolid):
 
 Part Antenna(BaseSolid):
 	hitPoints = 20
-	tags = "GethAntenna",
+	tags = "GethLink",
 	
 Part BlueBox(BaseSolid):
 	hitPoints = 15
@@ -188,6 +188,7 @@ Record Torso:
 		Head top coverage = 0.075
 		Shoulder["left"] coverage = 0.12
 		Shoulder["right"] coverage = 0.12
+		Antenna coverage = 0.08
 		
 		InternalStructure inside coverage = 0.2
 		HeatExchanger["left"] inside top coverage = 0.05

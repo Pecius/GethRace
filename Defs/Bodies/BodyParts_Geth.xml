@@ -20,6 +20,14 @@
 		<alive>false</alive>
 		<canSuggestAmputation>false</canSuggestAmputation>
 	</BodyPartDef>
+	<BodyPartDef ParentName="GethBaseSolid">
+		<defName>GethAntenna</defName>
+		<label>antenna</label>
+		<tags>
+			<li>GethLink</li>
+		</tags>
+		<hitPoints>20</hitPoints>
+	</BodyPartDef>
 	<BodyPartDef ParentName="GethBaseTissue">
 		<defName>GethArm</defName>
 		<label>arm</label>
