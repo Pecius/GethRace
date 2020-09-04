@@ -239,6 +239,12 @@
 			<li Class="PawnExtensions.ExtensionsDef">
 				<feelsNoPain>true</feelsNoPain>
 				<hasPassions>false</hasPassions>
+				<hediffOnDamage>
+					<li>
+						<damageDef>EMP</damageDef>
+						<hediff>GethEMPShutdown</hediff>
+					</li>
+				</hediffOnDamage>
 			</li>
 		</modExtensions>
 	</ThingDef>
