@@ -178,7 +178,7 @@ Record Leg:
 	parts:
 		UpperInternalLegStructure inside coverage = 0.1
 		LowerInternalLegStructure inside coverage = 0.1
-		CoolantConduit inside coverage = 0.02
+		CoolantConduit coverage = 0.02
 		Foot coverage = 0.1
 		
 Record Torso:
@@ -196,7 +196,7 @@ Record Torso:
 		PowerCell inside coverage = 0.025
 		BlueBox inside coverage = 0.01
 		CoolantPump inside coverage = 0.02
-		CoolantConduit inside coverage = 0.03
+		CoolantConduit coverage = 0.03
 		
 		Waist bottom coverage = 0
 		Leg["left"] bottom coverage = 0.1

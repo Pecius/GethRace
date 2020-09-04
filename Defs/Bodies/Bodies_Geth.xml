@@ -268,7 +268,6 @@
 				<li>
 					<def>GethCoolantConduit</def>
 					<coverage>0.03</coverage>
-					<depth>Inside</depth>
 					<groups>
 						<li>Torso</li>
 					</groups>
@@ -312,7 +311,6 @@
 							<def>GethCoolantConduit</def>
 							<customLabel>left coolant conduit</customLabel>
 							<coverage>0.02</coverage>
-							<depth>Inside</depth>
 							<groups>
 								<li>Legs</li>
 							</groups>
@@ -384,7 +382,6 @@
 							<def>GethCoolantConduit</def>
 							<customLabel>right coolant conduit</customLabel>
 							<coverage>0.02</coverage>
-							<depth>Inside</depth>
 							<groups>
 								<li>Legs</li>
 							</groups>
