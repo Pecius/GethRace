@@ -14,6 +14,7 @@
 			<ImmunityGainSpeed>10</ImmunityGainSpeed>
 			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+			<GethLinkMaxLinked>6</GethLinkMaxLinked>
 		</statBases>
 		<tools>
 			<li>
