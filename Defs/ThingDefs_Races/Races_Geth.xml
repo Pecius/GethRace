@@ -114,6 +114,7 @@
 		</race>
 		<recipes>
 			<li>Euthanize</li>
+			<li>RemoveBodyPart</li>
 			<li>GethRefillCoolant</li>
 		</recipes>
 		<comps>
