@@ -15,14 +15,11 @@
 		<minValue>0</minValue>
 		<toStringStyle>Integer</toStringStyle>
 		<displayPriorityInCategory>99997</displayPriorityInCategory>
-		<!--
-		<capacityFactors>
-			<li>
-				<capacity>GethLinkRange</capacity>
-				<weight>1</weight>
+		<parts>
+			<li Class="AlienRacesExtensions.StatPart_PartState">
+				<tag>GethLink</tag>
 			</li>
-		</capacityFactors>
-		-->
+		</parts>
 	</StatDef>
 	<StatDef>
 		<defName>GethLinkMaxLinked</defName>
