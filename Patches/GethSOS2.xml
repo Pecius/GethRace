@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!--It'd be much better if it was a Stat instead...-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Save Our Ship 2</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>*/AlienRace.ThingDef_AlienRace[defName="Geth"]</xpath>
+			<value>
+				<tradeTags>
+					<li>AnimalInsectSpace</li>
+				</tradeTags>
+			</value>
+		</match>
+	</Operation>
+</Patch>
