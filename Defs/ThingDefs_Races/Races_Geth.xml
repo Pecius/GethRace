@@ -237,6 +237,7 @@
 		<modExtensions>
 			<li Class="AlienRacesExtensions.ExtensionsDef">
 				<feelsNoPain>true</feelsNoPain>
+				<hasPassions>false</hasPassions>
 			</li>
 		</modExtensions>
 	</ThingDef>
