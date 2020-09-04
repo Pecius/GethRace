@@ -7,6 +7,26 @@
 			<drawSize>0.80</drawSize>
 			<color>(190,190,190)</color>
 		</graphicData>
+		<tradeTags>
+			<li>Bionic</li>
+		</tradeTags>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>Bionics</researchPrerequisite>
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
 	</ThingDef>
 	<ThingDef ParentName="GethBodyPartNaturalBase">
 		<defName>GethCoolantPump</defName>
@@ -15,6 +35,10 @@
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalCoolantPump</RecipeDef>
 		</descriptionHyperlinks>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
 			<Mass>1</Mass>
 			<MarketValue>500</MarketValue>
@@ -57,6 +81,10 @@
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalHeatExchanger</RecipeDef>
 		</descriptionHyperlinks>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
 			<Mass>1</Mass>
 		</statBases>
@@ -98,6 +126,10 @@
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalCoolantConduit</RecipeDef>
 		</descriptionHyperlinks>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
 			<Mass>1</Mass>
 		</statBases>
@@ -139,6 +171,10 @@
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalLeg</RecipeDef>
 		</descriptionHyperlinks>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
 			<Mass>1</Mass>
 		</statBases>
@@ -180,6 +216,10 @@
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalArm</RecipeDef>
 		</descriptionHyperlinks>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
 			<Mass>1</Mass>
 		</statBases>
@@ -221,6 +261,10 @@
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalHead</RecipeDef>
 		</descriptionHyperlinks>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
 			<Mass>1</Mass>
 		</statBases>
@@ -262,6 +306,10 @@
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalVisualReceptor</RecipeDef>
 		</descriptionHyperlinks>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
 			<Mass>1</Mass>
 		</statBases>
@@ -303,6 +351,10 @@
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalSoundReceptor</RecipeDef>
 		</descriptionHyperlinks>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
 			<Mass>1</Mass>
 		</statBases>
@@ -344,6 +396,10 @@
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalSpeaker</RecipeDef>
 		</descriptionHyperlinks>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
 			<Mass>1</Mass>
 		</statBases>
@@ -385,6 +441,10 @@
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalAntenna</RecipeDef>
 		</descriptionHyperlinks>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
 			<Mass>1</Mass>
 		</statBases>
@@ -426,6 +486,10 @@
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalPowerCell</RecipeDef>
 		</descriptionHyperlinks>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
 			<Mass>1</Mass>
 		</statBases>
