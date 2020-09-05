@@ -2,7 +2,7 @@
 <Defs>
 	<ThingDef Name="GethBodyPartNaturalBase" ParentName="BodyPartNaturalBase" Abstract="True">
 		<graphicData>
-			<texPath>Things/Item/Health/HealthItem</texPath>
+			<texPath>Things/Item/Health_Geth/GethItem</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.80</drawSize>
 			<color>(190,190,190)</color>
@@ -22,7 +22,7 @@
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>Bionics</researchPrerequisite>
+			<researchPrerequisite>GethBodyParts</researchPrerequisite>
 			<recipeUsers>
 				<li>FabricationBench</li>
 			</recipeUsers>
@@ -37,7 +37,7 @@
 		</descriptionHyperlinks>
 		<costList>
 			<Plasteel>10</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>1</Mass>
@@ -83,7 +83,7 @@
 		</descriptionHyperlinks>
 		<costList>
 			<Plasteel>10</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>1</Mass>
@@ -98,7 +98,7 @@
 		</descriptionHyperlinks>
 		<jobString>Installing heat exchanger.</jobString>
 		<skillRequirements>
-			<Medicine>8</Medicine>
+			<Medicine>10</Medicine>
 		</skillRequirements>
 		<ingredients>
 			<li>
@@ -128,7 +128,7 @@
 		</descriptionHyperlinks>
 		<costList>
 			<Plasteel>10</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>1</Mass>
@@ -172,8 +172,8 @@
 			<RecipeDef>GethInstallNaturalLeg</RecipeDef>
 		</descriptionHyperlinks>
 		<costList>
-			<Plasteel>10</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>1</Mass>
@@ -217,8 +217,8 @@
 			<RecipeDef>GethInstallNaturalArm</RecipeDef>
 		</descriptionHyperlinks>
 		<costList>
-			<Plasteel>10</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>1</Mass>
@@ -262,8 +262,8 @@
 			<RecipeDef>GethInstallNaturalHead</RecipeDef>
 		</descriptionHyperlinks>
 		<costList>
-			<Plasteel>10</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>1</Mass>
@@ -308,7 +308,7 @@
 		</descriptionHyperlinks>
 		<costList>
 			<Plasteel>10</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>1</Mass>
@@ -353,7 +353,7 @@
 		</descriptionHyperlinks>
 		<costList>
 			<Plasteel>10</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>1</Mass>
@@ -398,7 +398,7 @@
 		</descriptionHyperlinks>
 		<costList>
 			<Plasteel>10</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>1</Mass>
@@ -443,7 +443,7 @@
 		</descriptionHyperlinks>
 		<costList>
 			<Plasteel>10</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>1</Mass>
@@ -488,7 +488,7 @@
 		</descriptionHyperlinks>
 		<costList>
 			<Plasteel>10</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>1</Mass>
