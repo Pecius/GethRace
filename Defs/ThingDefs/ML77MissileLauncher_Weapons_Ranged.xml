@@ -26,6 +26,7 @@
 			<texPath>WeaponRanged/ML77MissileLauncher</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<tickerType>Normal</tickerType>
 		<uiIconScale>1.4</uiIconScale>
 		<soundInteract>Interact_ChargeRifle</soundInteract>
 		<thingSetMakerTags>
@@ -62,15 +63,18 @@
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
+				<forcedMissRadius>0.9</forcedMissRadius>
+				<minRange>2</minRange>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_ML77Missile</defaultProjectile>
 				<warmupTime>4.0</warmupTime>
-				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+				<ai_AvoidFriendlyFireRadius>10</ai_AvoidFriendlyFireRadius>
 				<range>25.9</range>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>Shot_ML77</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>14</muzzleFlashScale>
+				<requireLineOfSight>false</requireLineOfSight>
 			</li>
 		</verbs>
 		<tools>
