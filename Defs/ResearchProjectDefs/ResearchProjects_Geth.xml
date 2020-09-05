@@ -120,4 +120,19 @@
 		<researchViewX>0.0</researchViewX>
 		<researchViewY>1.60</researchViewY>
 	</ResearchProjectDef>
+			<!--===== Geth BodyParts ====-->
+	<ResearchProjectDef>
+		<tab>Geth_RTab</tab>
+		<defName>GethBodyParts</defName>
+		<label>Geth Parts</label>
+		<description>Research and unlock attachments and implants usable on geth.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Prosthetics</li>
+		</prerequisites>
+		<researchViewX>0.0</researchViewX>
+		<researchViewY>2.50</researchViewY>
+	</ResearchProjectDef>
 </Defs>
