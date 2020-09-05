@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Geth Playable Juggernaut Child -->
+	<AlienRace.BackstoryDef>
+		<defName>Geth_JugChild</defName>
+		<title>Geth</title>
+		<titleShort>Geth</titleShort>
+		<baseDescription>A humanoid race of networked AIs that were created by the quarians 300 years ago as tools of labor and war. Having since won their freedom from their creators, the geth have proven they are able to reason, analyze situations, and deploy tactics as well as any organic race so long as they remain networked with other geth.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>GethJuggernautSoldierBackstory</li>
+		</spawnCategories>
+		<forcedTraits>
+			<li>
+				<defName>NetworkedAI</defName>
+			</li>
+			<li>
+				<defName>GethSlowSpeed</defName>
+			</li>
+			<li>
+				<defName>ReinforcedStructure</defName>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Gay</defName>
+			</li>
+		</disallowedTraits>
+	</AlienRace.BackstoryDef>
+	<!-- Geth Playable Juggernaut Adult -->
+	<AlienRace.BackstoryDef>
+		<defName>Geth_JuggernautSoldier</defName>
+		<title>Geth Juggernaut</title>
+		<titleShort>Juggernaut</titleShort>
+		<baseDescription>The Geth Juggernaut is a heavy geth infantry platform. Like the Geth Prime, it towers above ground forces as an intimidating presence on the battlefield.</baseDescription>
+		<bodyTypeMale>RedJuggernaut</bodyTypeMale>
+		<bodyTypeFemale>RedJuggernaut</bodyTypeFemale>
+		<bodyTypeGlobal>RedJuggernaut</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>GethJuggernautSoldierBackstory</li>
+		</spawnCategories>
+		<relationSettings>
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
+		<forcedTraits>
+			<li>
+				<defName>NetworkedAI</defName>
+			</li>
+			<li>
+				<defName>GethSlowSpeed</defName>
+			</li>
+			<li>
+				<defName>ReinforcedStructure</defName>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+</Defs>
