@@ -42,7 +42,7 @@
 		</statBases>
 		<costList>
 			<Plasteel>50</Plasteel>
-			<ComponentSpacer>4</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<recipeMaker>
 			<skillRequirements>
