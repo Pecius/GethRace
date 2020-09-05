@@ -17,7 +17,7 @@
 		</degreeDatas>
 	</TraitDef>
 	<TraitDef>
-		<defName>ReinforcedStructure</defName>
+		<defName>GethReinforcedStructure</defName>
 		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
@@ -30,7 +30,7 @@
 		</degreeDatas>
 	</TraitDef>
 	<TraitDef>
-		<defName>NetworkedAI</defName>
+		<defName>GethNetworkedAI</defName>
 		<commonality>0</commonality>
 		<degreeDatas>
 			<li>

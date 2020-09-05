@@ -14,7 +14,7 @@
 		</spawnCategories>
 		<forcedTraits>
 			<li>
-				<defName>NetworkedAI</defName>
+				<defName>GethNetworkedAI</defName>
 			</li>
 			<li>
 				<defName>GethAimAccuracy</defName>
@@ -68,7 +68,7 @@
 		</relationSettings>
 		<forcedTraits>
 			<li>
-				<defName>NetworkedAI</defName>
+				<defName>GethNetworkedAI</defName>
 			</li>
 			<li>
 				<defName>GethAimAccuracy</defName>

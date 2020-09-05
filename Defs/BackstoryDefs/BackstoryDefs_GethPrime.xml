@@ -14,13 +14,13 @@
 		</spawnCategories>
 		<forcedTraits>
 			<li>
-				<defName>NetworkedAI</defName>
+				<defName>GethNetworkedAI</defName>
 			</li>
 			<li>
 				<defName>GethSlowSpeed</defName>
 			</li>
 			<li>
-				<defName>ReinforcedStructure</defName>
+				<defName>GethReinforcedStructure</defName>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
@@ -64,13 +64,13 @@
 		</relationSettings>
 		<forcedTraits>
 			<li>
-				<defName>NetworkedAI</defName>
+				<defName>GethNetworkedAI</defName>
 			</li>
 			<li>
 				<defName>GethSlowSpeed</defName>
 			</li>
 			<li>
-				<defName>ReinforcedStructure</defName>
+				<defName>GethReinforcedStructure</defName>
 			</li>
 		</forcedTraits>
 	</AlienRace.BackstoryDef>

@@ -14,7 +14,7 @@
 		</spawnCategories>
 		<forcedTraits>
 			<li>
-				<defName>NetworkedAI</defName>
+				<defName>GethNetworkedAI</defName>
 			</li>
 			<li>
 				<defName>GethNimble</defName>
@@ -58,7 +58,7 @@
 		</spawnCategories>
 		<forcedTraits>
 			<li>
-				<defName>NetworkedAI</defName>
+				<defName>GethNetworkedAI</defName>
 			</li>
 			<li>
 				<defName>GethNimble</defName>
