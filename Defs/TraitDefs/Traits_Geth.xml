@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<TraitDef>
+		<defName>GethSlowSpeed</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>heavy weapons platform</label>
+				<description>While powerful, [PAWN_pronoun] moves slower due to extra bulk.</description>
+				<statOffsets>
+					<MoveSpeed>-1.4</MoveSpeed>
+				</statOffsets>
+				<disallowedInspirations>
+					<li>Frenzy_Go</li>
+				</disallowedInspirations>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	<TraitDef>
+		<defName>ReinforcedStructure</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Reinforced structure</label>
+				<description>{PAWN_nameDef} is able to withstand a lot more punishment than the average geth.</description>
+				<statFactors>
+					<IncomingDamageFactor>0.6</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	<TraitDef>
+		<defName>NetworkedAI</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Networked AI</label>
+				<description>We are legion.</description>
+				<statFactors>
+					<GlobalLearningFactor>0.10</GlobalLearningFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+		<exclusionTags>
+			<li>SexualOrientation</li>
+		</exclusionTags>
+	</TraitDef>
+	<TraitDef>
+		<defName>GethFastSpeed</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Enhanced leg actuators</label>
+				<description>{PAWN_nameDef} has enhanced leg actuators, allowing them to move faster than average.</description>
+				<statFactors>
+					<MoveSpeed>1.05</MoveSpeed>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	<TraitDef>
+		<defName>GethAimAccuracy</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Enhanced perception</label>
+				<description>{PAWN_nameDef} sports unique perception systems, increasing their shooting accuracy.</description>
+				<statFactors>
+					<ShootingAccuracyPawn>1.05</ShootingAccuracyPawn>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	<TraitDef>
+		<defName>GethNimble</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>Evasive</label>
+				<description>{PAWN_nameDef} is better attuned to movement, and is able to dodge physical blows that would otherwise hit.</description>
+				<statFactors>
+					<MeleeDodgeChance>15</MeleeDodgeChance>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+</Defs>
