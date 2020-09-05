@@ -5,37 +5,22 @@
 		<defName>Geth_PrimeChild</defName>
 		<title>Geth</title>
 		<titleShort>Geth</titleShort>
-		<baseDescription>A geth before it uploads itself into a platform.</baseDescription>
+		<baseDescription>A humanoid race of networked AIs that were created by the quarians 300 years ago as tools of labor and war. Having since won their freedom from their creators, the geth have proven they are able to reason, analyze situations, and deploy tactics as well as any organic race so long as they remain networked with other geth.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
-		<skillGains>
-			<li>
-				<defName>Shooting</defName>
-				<amount>1</amount>
-			</li>
-			<li>
-				<defName>Crafting</defName>
-				<amount>1</amount>
-			</li>
-			<li>
-				<defName>Intellectual</defName>
-				<amount>4</amount>
-			</li>
-		</skillGains>
 		<spawnCategories>
 			<li>GethPrimeBackstory</li>
 		</spawnCategories>
 		<forcedTraits>
 			<li>
-				<defName>Asexual</defName>
+				<defName>NetworkedAI</defName>
 			</li>
 			<li>
-				<defName>SpeedOffset</defName>
-				<degree>-1</degree>
+				<defName>GethSlowSpeed</defName>
 			</li>
 			<li>
-				<defName>Tough</defName>
+				<defName>ReinforcedStructure</defName>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
@@ -79,14 +64,13 @@
 		</relationSettings>
 		<forcedTraits>
 			<li>
-				<defName>Asexual</defName>
+				<defName>NetworkedAI</defName>
 			</li>
 			<li>
-				<defName>SpeedOffset</defName>
-				<degree>-1</degree>
+				<defName>GethSlowSpeed</defName>
 			</li>
 			<li>
-				<defName>Tough</defName>
+				<defName>ReinforcedStructure</defName>
 			</li>
 		</forcedTraits>
 	</AlienRace.BackstoryDef>
