@@ -513,6 +513,9 @@
 				<li>
 					<kindDefs>
 						<li>BaseGeth</li>
+						<li>BaseGethTrooperSoldier</li>
+						<li>BaseGethJuggernautSoldier</li>
+						<li>BaseGethHunterInfiltrator</li>
 					</kindDefs>
 					<chance>20.0</chance>
 				</li>
@@ -521,6 +524,9 @@
 				<li>
 					<kindDefs>
 						<li>BaseGeth</li>
+						<li>BaseGethTrooperSoldier</li>
+						<li>BaseGethJuggernautSoldier</li>
+						<li>BaseGethHunterInfiltrator</li>
 					</kindDefs>
 					<chance>20.0</chance>
 				</li>
@@ -531,6 +537,9 @@
 						<li>
 							<kindDefs>
 								<li>BaseGeth</li>
+								<li>BaseGethTrooperSoldier</li>
+								<li>BaseGethJuggernautSoldier</li>
+								<li>BaseGethHunterInfiltrator</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
@@ -546,6 +555,9 @@
 						<li>
 							<kindDefs>
 								<li>BaseGeth</li>
+								<li>BaseGethTrooperSoldier</li>
+								<li>BaseGethJuggernautSoldier</li>
+								<li>BaseGethHunterInfiltrator</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
