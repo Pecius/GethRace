@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef ParentName="BasePawn" Name="BaseGeth" Abstract="True">
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="BaseGeth" Abstract="True">
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<statBases>
 			<MarketValue>2000</MarketValue>
@@ -79,7 +79,6 @@
 			<baseHealthScale>0.8</baseHealthScale>
 			<fleshType>GethFlesh</fleshType>
 			<foodType>None</foodType>
-			<gestationPeriodDays>10</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
@@ -414,29 +413,7 @@
 				<statRepeater>GethLinkRepeater</statRepeater>
 				<part>GethBlueBox</part>
 			</li>
-			<!--<li Class="PawnExtensions.RaceRenamer">
-				<capacities>
-					<Consciousness>Data processing</Consciousness>
-				</capacities>
-			</li>-->
 		</comps>
-		<modExtensions>
-			<li Class="PawnExtensions.ExtensionsDef">
-				<feelsNoPain>true</feelsNoPain>
-				<hasPassions>false</hasPassions>
-				<hediffOnDamage>
-					<li>
-						<damageDef>EMP</damageDef>
-						<hediff>GethEMPShutdown</hediff>
-					</li>
-				</hediffOnDamage>
-			</li>
-		</modExtensions>
-	</ThingDef>
-	<AlienRace.ThingDef_AlienRace ParentName="BaseGeth">
-		<defName>Geth</defName>
-		<label>Geth</label>
-		<description>The geth are a race of networked artificial intelligences that reside beyond the Perseus Veil. The geth were created by the quarians as laborers and tools of war. When the geth became sentient and began to question their masters, the quarians attempted to exterminate them.</description>
 		<alienRace>
 			<generalSettings>
 				<immuneToAge>true</immuneToAge>
@@ -455,30 +432,8 @@
 							</first>
 						</li>
 					</colorChannels>
-					<customDrawSize>(1.1, 1.1</customDrawSize>
-					<alienbodytypes>
-						<li>GethPecius</li>
-						<li>GethTrooper</li>
-						<li>GethHunter</li>
-						<li>GethRocketTrooper</li>
-						<li>GethShockTrooper</li>
-						<li>RedGeth</li>
-						<li>GethInfiltrator</li>
-						<li>GethPyro</li>
-						<li>ME1GethRed</li>
-						<li>ME1GethTrooper</li>
-						<li>GethPrime</li>
-					</alienbodytypes>
 				</alienPartGenerator>
 			</generalSettings>
-			<graphicPaths>
-				<li>
-					<body>Geth/Base/</body>
-					<head></head>
-					<skeleton></skeleton>
-					<skull></skull>
-				</li>
-			</graphicPaths>
 			<hairSettings>
 				<hasHair>false</hasHair>
 			</hairSettings>
@@ -514,68 +469,52 @@
 				</traitList>
 			</raceRestriction>
 		</alienRace>
+		<modExtensions>
+			<li Class="PawnExtensions.ExtensionsDef">
+				<feelsNoPain>true</feelsNoPain>
+				<hasPassions>false</hasPassions>
+				<hediffOnDamage>
+					<li>
+						<damageDef>EMP</damageDef>
+						<hediff>GethEMPShutdown</hediff>
+					</li>
+				</hediffOnDamage>
+			</li>
+		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>
-	<AlienRace.RaceSettings>
+	<AlienRace.ThingDef_AlienRace ParentName="BaseGeth">
 		<defName>Geth</defName>
-		<pawnKindSettings>
-			<alienslavekinds>
+		<label>Geth</label>
+		<description>The geth are a race of networked artificial intelligences that reside beyond the Perseus Veil. The geth were created by the quarians as laborers and tools of war. When the geth became sentient and began to question their masters, the quarians attempted to exterminate them.</description>
+		<alienRace>
+			<generalSettings>
+				<immuneToAge>true</immuneToAge>
+				<canLayDown>true</canLayDown>
+				<alienPartGenerator>
+					<customDrawSize>(1.1, 1.1)</customDrawSize>
+					<alienbodytypes>
+						<li>GethPecius</li>
+						<li>GethTrooper</li>
+						<li>GethHunter</li>
+						<li>GethRocketTrooper</li>
+						<li>GethShockTrooper</li>
+						<li>RedGeth</li>
+						<li>GethInfiltrator</li>
+						<li>GethPyro</li>
+						<li>ME1GethRed</li>
+						<li>ME1GethTrooper</li>
+						<li>GethPrime</li>
+					</alienbodytypes>
+				</alienPartGenerator>
+			</generalSettings>
+			<graphicPaths>
 				<li>
-					<kindDefs>
-						<li>BaseGeth</li>
-						<li>BaseGethTrooperSoldier</li>
-						<li>BaseGethJuggernautSoldier</li>
-						<li>BaseGethHunterInfiltrator</li>
-					</kindDefs>
-					<chance>20.0</chance>
+					<body>Geth/Base/</body>
+					<head></head>
+					<skeleton></skeleton>
+					<skull></skull>
 				</li>
-			</alienslavekinds>
-			<alienrefugeekinds>
-				<li>
-					<kindDefs>
-						<li>BaseGeth</li>
-						<li>BaseGethTrooperSoldier</li>
-						<li>BaseGethJuggernautSoldier</li>
-						<li>BaseGethHunterInfiltrator</li>
-					</kindDefs>
-					<chance>20.0</chance>
-				</li>
-			</alienrefugeekinds>
-			<startingColonists>
-				<li>
-					<pawnKindEntries>
-						<li>
-							<kindDefs>
-								<li>BaseGeth</li>
-								<li>BaseGethTrooperSoldier</li>
-								<li>BaseGethJuggernautSoldier</li>
-								<li>BaseGethHunterInfiltrator</li>
-							</kindDefs>
-							<chance>20.0</chance>
-						</li>
-					</pawnKindEntries>
-					<factionDefs>
-						<li>PlayerColony</li>
-					</factionDefs>
-				</li>
-			</startingColonists>
-			<alienwandererkinds>
-				<li>
-					<pawnKindEntries>
-						<li>
-							<kindDefs>
-								<li>BaseGeth</li>
-								<li>BaseGethTrooperSoldier</li>
-								<li>BaseGethJuggernautSoldier</li>
-								<li>BaseGethHunterInfiltrator</li>
-							</kindDefs>
-							<chance>20.0</chance>
-						</li>
-					</pawnKindEntries>
-					<factionDefs>
-						<li>GethConsensus</li>
-					</factionDefs>
-				</li>
-			</alienwandererkinds>
-		</pawnKindSettings>
-	</AlienRace.RaceSettings>
+			</graphicPaths>
+		</alienRace>
+	</AlienRace.ThingDef_AlienRace>
 </Defs>
