@@ -14,7 +14,7 @@
 		<defaultBaseValue>50</defaultBaseValue>
 		<minValue>0</minValue>
 		<toStringStyle>Integer</toStringStyle>
-		<displayPriorityInCategory>99997</displayPriorityInCategory>
+		<displayPriorityInCategory>0</displayPriorityInCategory>
 		<parts>
 			<li Class="PawnExtensions.StatPart_PartState">
 				<tag>GethLink</tag>
@@ -30,7 +30,7 @@
 		<defaultBaseValue>4</defaultBaseValue>
 		<minValue>0</minValue>
 		<toStringStyle>Integer</toStringStyle>
-		<displayPriorityInCategory>99998</displayPriorityInCategory>
+		<displayPriorityInCategory>1</displayPriorityInCategory>
 	</StatDef>
 	<StatDef>
 		<defName>GethLinkRepeater</defName>
@@ -41,7 +41,7 @@
 		<defaultBaseValue>0</defaultBaseValue>
 		<minValue>0</minValue>
 		<maxValue>1</maxValue>
-		<displayPriorityInCategory>99998</displayPriorityInCategory>
+		<displayPriorityInCategory>2</displayPriorityInCategory>
 	</StatDef>
 	<PawnExtensions.PawnLinkNetworkDef>
 		<defName>GethNetwork</defName>
