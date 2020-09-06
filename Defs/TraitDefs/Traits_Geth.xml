@@ -2,7 +2,6 @@
 <Defs>
 	<TraitDef>
 		<defName>GethSlowSpeed</defName>
-		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
 				<label>heavy weapons platform</label>
@@ -18,7 +17,6 @@
 	</TraitDef>
 	<TraitDef>
 		<defName>GethReinforcedStructure</defName>
-		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
 				<label>Reinforced structure</label>
@@ -31,7 +29,6 @@
 	</TraitDef>
 	<TraitDef>
 		<defName>GethNetworkedAI</defName>
-		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
 				<label>Networked AI</label>
@@ -47,7 +44,6 @@
 	</TraitDef>
 	<TraitDef>
 		<defName>GethFastSpeed</defName>
-		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
 				<label>Enhanced leg actuators</label>
@@ -60,7 +56,6 @@
 	</TraitDef>
 	<TraitDef>
 		<defName>GethAimAccuracy</defName>
-		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
 				<label>Enhanced perception</label>
@@ -73,7 +68,6 @@
 	</TraitDef>
 	<TraitDef>
 		<defName>GethNimble</defName>
-		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
 				<label>Evasive</label>

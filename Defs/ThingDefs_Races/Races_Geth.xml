@@ -503,6 +503,15 @@
 			<raceRestriction>
 				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 				<onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
+				<onlyGetRaceRestrictedTraits>true</onlyGetRaceRestrictedTraits>
+				<traitList>
+					<li>GethSlowSpeed</li>
+					<li>GethReinforcedStructure</li>
+					<li>GethNetworkedAI</li>
+					<li>GethFastSpeed</li>
+					<li>GethAimAccuracy</li>
+					<li>GethNimble</li>
+				</traitList>
 			</raceRestriction>
 		</alienRace>
 	</AlienRace.ThingDef_AlienRace>
