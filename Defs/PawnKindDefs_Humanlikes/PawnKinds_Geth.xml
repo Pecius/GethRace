@@ -1,27 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- Geth Platform Pawn -->
-	<PawnKindDef>
-		<defName>BaseGeth</defName>
-		<defaultFactionType>PlayerColony</defaultFactionType>
-		<label>Geth</label>
-		<race>Geth</race>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>GethPlatformBackstory</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
-		<combatPower>80</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
-		<weaponTags>
-			<li>GethPulseRifle</li>
-			<li>GethPlasmaSMG</li>
-		</weaponTags>
-	</PawnKindDef>
 	<!-- Geth Trader Pawn -->
 	<PawnKindDef>
 		<defName>BaseTraderGeth</defName>
@@ -155,7 +133,7 @@
 		</weaponTags>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
-	<!-- Geth Juggernaut Pawn -->
+	<!-- Geth Prime Pawn -->
 	<PawnKindDef>
 		<defName>BaseGethPrime</defName>
 		<defaultFactionType>GethConsensus</defaultFactionType>
@@ -311,7 +289,7 @@
 		</weaponTags>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
-	<!-- Heretic Geth Juggernaut Pawn -->
+	<!-- Heretic Geth Prime Pawn -->
 	<PawnKindDef>
 		<defName>BaseHereticGethPrime</defName>
 		<defaultFactionType>HereticGeth</defaultFactionType>
