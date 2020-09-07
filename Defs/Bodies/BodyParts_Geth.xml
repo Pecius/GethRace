@@ -79,7 +79,7 @@
 			<li>GethHeatExchanger</li>
 			<li>MovingLimbSegment</li>
 		</tags>
-		<hitPoints>25</hitPoints>
+		<hitPoints>20</hitPoints>
 	</BodyPartDef>
 	<BodyPartDef ParentName="GethBaseTissue">
 		<defName>GethHand</defName>
@@ -113,7 +113,7 @@
 		<tags>
 			<li>MovingLimbCore</li>
 		</tags>
-		<hitPoints>30</hitPoints>
+		<hitPoints>25</hitPoints>
 	</BodyPartDef>
 	<BodyPartDef ParentName="GethBaseSolid">
 		<defName>GethLowerInternalArmStructure</defName>
@@ -175,7 +175,7 @@
 	<BodyPartDef ParentName="GethBaseTissue">
 		<defName>GethTorso</defName>
 		<label>torso</label>
-		<hitPoints>60</hitPoints>
+		<hitPoints>50</hitPoints>
 	</BodyPartDef>
 	<BodyPartDef ParentName="GethBaseSolid">
 		<defName>GethUpperInternalArmStructure</defName>
