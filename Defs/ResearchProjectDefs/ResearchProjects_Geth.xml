@@ -124,8 +124,8 @@
 	<ResearchProjectDef>
 		<tab>Geth_RTab</tab>
 		<defName>GethBodyParts</defName>
-		<label>Geth Parts</label>
-		<description>Research and unlock attachments and implants usable on geth.</description>
+		<label>Standard Geth Parts</label>
+		<description>Research standard parts for Geth.</description>
 		<baseCost>3000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
