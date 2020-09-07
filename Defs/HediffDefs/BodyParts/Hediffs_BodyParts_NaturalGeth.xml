@@ -30,8 +30,8 @@
 	</ThingDef>
 	<ThingDef ParentName="GethBodyPartNaturalBase">
 		<defName>GethCoolantPump</defName>
-		<label>coolant pump</label>
-		<description>A coolant pump.</description>
+		<label>geth coolant pump</label>
+		<description>A geth coolant pump.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalCoolantPump</RecipeDef>
 		</descriptionHyperlinks>
@@ -76,8 +76,8 @@
 	</RecipeDef>
 	<ThingDef ParentName="GethBodyPartNaturalBase">
 		<defName>GethHeatExchanger</defName>
-		<label>heat exchanger</label>
-		<description>A heat exchanger.</description>
+		<label>geth heat exchanger</label>
+		<description>A geth heat exchanger.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalHeatExchanger</RecipeDef>
 		</descriptionHyperlinks>
@@ -121,8 +121,8 @@
 	</RecipeDef>
 	<ThingDef ParentName="GethBodyPartNaturalBase">
 		<defName>GethCoolantConduit</defName>
-		<label>coolant conduit</label>
-		<description>A coolant conduit.</description>
+		<label>geth coolant conduit</label>
+		<description>A geth coolant conduit.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalCoolantConduit</RecipeDef>
 		</descriptionHyperlinks>
@@ -166,8 +166,8 @@
 	</RecipeDef>
 	<ThingDef ParentName="GethBodyPartNaturalBase">
 		<defName>GethLeg</defName>
-		<label>leg</label>
-		<description>A leg.</description>
+		<label>geth leg</label>
+		<description>A geth leg.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalLeg</RecipeDef>
 		</descriptionHyperlinks>
@@ -211,8 +211,8 @@
 	</RecipeDef>
 	<ThingDef ParentName="GethBodyPartNaturalBase">
 		<defName>GethArm</defName>
-		<label>arm</label>
-		<description>A arm.</description>
+		<label>geth arm</label>
+		<description>A geth arm.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalArm</RecipeDef>
 		</descriptionHyperlinks>
@@ -256,8 +256,8 @@
 	</RecipeDef>
 	<ThingDef ParentName="GethBodyPartNaturalBase">
 		<defName>GethHead</defName>
-		<label>head</label>
-		<description>A head.</description>
+		<label>geth head</label>
+		<description>A geth head.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalHead</RecipeDef>
 		</descriptionHyperlinks>
@@ -301,8 +301,8 @@
 	</RecipeDef>
 	<ThingDef ParentName="GethBodyPartNaturalBase">
 		<defName>GethVisualReceptor</defName>
-		<label>visual receptor</label>
-		<description>A visual receptor.</description>
+		<label>geth visual receptor</label>
+		<description>A geth visual receptor.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalVisualReceptor</RecipeDef>
 		</descriptionHyperlinks>
@@ -346,8 +346,8 @@
 	</RecipeDef>
 	<ThingDef ParentName="GethBodyPartNaturalBase">
 		<defName>GethSoundReceptor</defName>
-		<label>sound receptor</label>
-		<description>A sound receptor.</description>
+		<label>geth sound receptor</label>
+		<description>A geth sound receptor.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalSoundReceptor</RecipeDef>
 		</descriptionHyperlinks>
@@ -391,8 +391,8 @@
 	</RecipeDef>
 	<ThingDef ParentName="GethBodyPartNaturalBase">
 		<defName>GethSpeaker</defName>
-		<label>speaker</label>
-		<description>A speaker.</description>
+		<label>geth speaker</label>
+		<description>A geth speaker.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalSpeaker</RecipeDef>
 		</descriptionHyperlinks>
@@ -436,8 +436,8 @@
 	</RecipeDef>
 	<ThingDef ParentName="GethBodyPartNaturalBase">
 		<defName>GethAntenna</defName>
-		<label>antenna</label>
-		<description>A antenna.</description>
+		<label>geth antenna</label>
+		<description>A geth antenna.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalAntenna</RecipeDef>
 		</descriptionHyperlinks>
@@ -452,7 +452,7 @@
 	<RecipeDef ParentName="GethSurgeryInstallBodyPartNaturalBase">
 		<defName>GethInstallNaturalAntenna</defName>
 		<label>install antenna</label>
-		<description>Install a antenna.</description>
+		<description>Install an antenna.</description>
 		<descriptionHyperlinks>
 			<ThingDef>GethAntenna</ThingDef>
 		</descriptionHyperlinks>
@@ -481,8 +481,8 @@
 	</RecipeDef>
 	<ThingDef ParentName="GethBodyPartNaturalBase">
 		<defName>GethPowerCell</defName>
-		<label>power cell</label>
-		<description>A power cell.</description>
+		<label>geth power cell</label>
+		<description>A geth power cell.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>GethInstallNaturalPowerCell</RecipeDef>
 		</descriptionHyperlinks>
