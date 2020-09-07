@@ -44,8 +44,8 @@
 	<PawnKindDef>
 		<defName>BaseGethJuggernautSoldier</defName>
 		<defaultFactionType>PlayerColony</defaultFactionType>
-		<label>Geth</label>
-		<race>Geth</race>
+		<label>Geth Juggernaut</label>
+		<race>GethPrime</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>

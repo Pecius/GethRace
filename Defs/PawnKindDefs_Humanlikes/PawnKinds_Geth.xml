@@ -138,7 +138,7 @@
 		<defName>BaseGethPrime</defName>
 		<defaultFactionType>GethConsensus</defaultFactionType>
 		<label>Geth Prime</label>
-		<race>Geth</race>
+		<race>GethPrime</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -294,7 +294,7 @@
 		<defName>BaseHereticGethPrime</defName>
 		<defaultFactionType>HereticGeth</defaultFactionType>
 		<label>Geth Prime</label>
-		<race>Geth</race>
+		<race>GethPrime</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>

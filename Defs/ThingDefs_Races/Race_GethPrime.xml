@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<AlienRace.ThingDef_AlienRace ParentName="BaseGeth">
+		<defName>GethPrime</defName>
+		<label>Geth Prime</label>
+		<description>The geth are a race of networked artificial intelligences that reside beyond the Perseus Veil. The geth were created by the quarians as laborers and tools of war. When the geth became sentient and began to question their masters, the quarians attempted to exterminate them.</description>
+		<statBases>
+			<GethLinkRepeater>1</GethLinkRepeater>
+		</statBases>
+		<alienRace>
+			<generalSettings>
+				<immuneToAge>true</immuneToAge>
+				<canLayDown>true</canLayDown>
+				<alienPartGenerator>
+					<customDrawSize>(1.1, 1.1)</customDrawSize>
+					<alienbodytypes>
+						<li>GethPrime</li>
+						<li>RedJuggernaut</li>
+					</alienbodytypes>
+				</alienPartGenerator>
+			</generalSettings>
+			<graphicPaths>
+				<li>
+					<body>Geth/Base/</body>
+					<head></head>
+					<skeleton></skeleton>
+					<skull></skull>
+				</li>
+			</graphicPaths>
+		</alienRace>
+	</AlienRace.ThingDef_AlienRace>
+</Defs>
