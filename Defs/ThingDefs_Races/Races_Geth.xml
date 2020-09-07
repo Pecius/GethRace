@@ -11,10 +11,10 @@
 			<LeatherAmount>0</LeatherAmount>
 			<MeatAmount>0</MeatAmount>
 			<ResearchSpeed>1.2</ResearchSpeed>
-			<ImmunityGainSpeed>10</ImmunityGainSpeed>
-			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
 			<GethLinkMaxLinked>6</GethLinkMaxLinked>
+			<ImmunityGainSpeed>0.8</ImmunityGainSpeed>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
 		</statBases>
 		<tools>
 			<li>
@@ -76,7 +76,7 @@
 			<hasGenders>false</hasGenders>
 			<body>Geth</body>
 			<baseBodySize>1</baseBodySize>
-			<baseHealthScale>0.8</baseHealthScale>
+			<baseHealthScale>1</baseHealthScale>
 			<fleshType>GethFlesh</fleshType>
 			<foodType>None</foodType>
 			<litterSizeCurve>

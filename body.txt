@@ -67,11 +67,11 @@ Part PowerCell(BaseSolid):
 # Legs
 
 Part Leg(BaseTissue):
-	hitPoints = 30
+	hitPoints = 25
 	tags = "MovingLimbCore",
 	
 Part Foot(BaseTissue):
-	hitPoints = 25
+	hitPoints = 20
 	tags = "GethHeatExchanger", "MovingLimbSegment"
 
 Part Toe(BaseTissue):
@@ -119,7 +119,7 @@ Part Head(BaseTissue):
 	hitPoints = 25
 
 Part Torso(BaseTissue):
-	hitPoints = 60
+	hitPoints = 50
 	
 Part InternalStructure(BaseSolid):
 	hitPoints = 30
