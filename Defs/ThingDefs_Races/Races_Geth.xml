@@ -482,6 +482,19 @@
 						<hediff>GethEMPShutdown</hediff>
 					</li>
 				</hediffOnDamage>
+				<diseaseImmunity>
+					<hediffs>
+						<li>GutWorms</li>
+						<li>MuscleParasites</li>
+						<li>FibrousMechanites</li>
+						<li>SensoryMechanites</li>
+						<li>Flu</li>
+						<li>Plague</li>
+						<li>Malaria</li>
+						<li>SleepingSickness</li>
+						<li>WoundInfection</li>
+					</hediffs>
+				</diseaseImmunity>
 			</li>
 		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>
