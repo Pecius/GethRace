@@ -6,6 +6,7 @@
 		<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
 		<workSkill>Medicine</workSkill>
 		<workSkillLearnFactor>16</workSkillLearnFactor>
+		<anesthetize>false</anesthetize>
 	</RecipeDef>
 	<RecipeDef ParentName="SurgeryGeth">
 		<defName>GethRefillCoolant</defName>
@@ -18,7 +19,6 @@
 		<hideBodyPartNames>true</hideBodyPartNames>
 		<targetsBodyPart>false</targetsBodyPart>
 		<surgerySuccessChanceFactor>9999999999</surgerySuccessChanceFactor>
-		<anesthetize>false</anesthetize>
 		<ingredients>
 			<li>
 				<filter>
