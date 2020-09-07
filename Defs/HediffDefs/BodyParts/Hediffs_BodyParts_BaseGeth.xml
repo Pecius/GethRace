@@ -10,7 +10,7 @@
 			<li>Geth</li>
 		</recipeUsers>
 	</RecipeDef>
-	  <RecipeDef Name="GethSurgeryInstallBodyPartNaturalBase" ParentName="GethSurgeryInstallPartBase" Abstract="True">
-    <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-  </RecipeDef>
+	<RecipeDef Name="GethSurgeryInstallBodyPartNaturalBase" ParentName="GethSurgeryInstallPartBase" Abstract="True">
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+	</RecipeDef>
 </Defs>
