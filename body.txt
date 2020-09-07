@@ -23,7 +23,7 @@ Part BaseCoolantSystem:
 
 Part CoolantConduit(BaseCoolantSystem):
 	hitPoints = 15
-	bleedRate = 20
+	bleedRate = 2.5
 	destroyableByDamage = False
 	tags = "GethCoolantConduit",
 

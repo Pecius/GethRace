@@ -52,7 +52,7 @@
 			<li>GethCoolantConduit</li>
 		</tags>
 		<hitPoints>15</hitPoints>
-		<bleedRate>20.0</bleedRate>
+		<bleedRate>2.5</bleedRate>
 		<destroyableByDamage>false</destroyableByDamage>
 	</BodyPartDef>
 	<BodyPartDef ParentName="GethBaseCoolantSystem">
