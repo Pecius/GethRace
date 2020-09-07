@@ -114,7 +114,6 @@
 			<li>
 				<label>critical</label>
 				<minSeverity>0.35</minSeverity>
-				<painOffset>0.15</painOffset>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
