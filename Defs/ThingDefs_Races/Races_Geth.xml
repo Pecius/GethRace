@@ -420,7 +420,7 @@
 		<alienRace>
 			<generalSettings>
 				<immuneToAge>true</immuneToAge>
-				<canLayDown>true</canLayDown>
+				<canLayDown>false</canLayDown>
 				<alienPartGenerator>
 					<colorChannels>
 						<li>
