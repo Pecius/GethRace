@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- Geth Platform Pawn -->
-	<PawnKindDef>
-		<defName>BaseGeth</defName>
+	<PawnKindDef Name="BaseGethKind" Abstract="True">
 		<defaultFactionType>PlayerColony</defaultFactionType>
 		<label>Geth</label>
 		<race>Geth</race>
@@ -20,12 +18,23 @@
 		<weaponTags>
 		</weaponTags>
 	</PawnKindDef>
-	<!-- Geth Trooper Soldier Pawn -->
-	<PawnKindDef>
-		<defName>BaseGethTrooperSoldier</defName>
-		<defaultFactionType>PlayerColony</defaultFactionType>
+	<!-- Geth Platform Pawn -->
+	<PawnKindDef ParentName="BaseGethKind">
+		<defName>GethPlayer</defName>
 		<label>Geth</label>
-		<race>Geth</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>GethPlatformBackstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<combatPower>80</combatPower>
+	</PawnKindDef>
+	<!-- Geth Trooper Soldier Pawn -->
+	<PawnKindDef ParentName="BaseGethKind">
+		<defName>GethTrooperPlayer</defName>
+		<label>Geth</label>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -33,39 +42,26 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>90</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
-		<weaponTags>
-		</weaponTags>
 	</PawnKindDef>
 	<!-- Geth Juggernaut Soldier Pawn -->
-	<PawnKindDef>
-		<defName>BaseGethJuggernautSoldier</defName>
-		<defaultFactionType>PlayerColony</defaultFactionType>
+	<PawnKindDef ParentName="BaseGethKind">
+		<defName>GethJuggernautPlayer</defName>
 		<label>Geth Juggernaut</label>
 		<race>GethPrime</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>GethJuggernautSoldierBackstory</li>
+					<li>GethJuggernautPlayerBackstory</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>120</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
-		<weaponTags>
-		</weaponTags>
 	</PawnKindDef>
 	<!-- Geth Hunter Infiltrator Pawn -->
-	<PawnKindDef>
-		<defName>BaseGethHunterInfiltrator</defName>
-		<defaultFactionType>PlayerColony</defaultFactionType>
+	<PawnKindDef ParentName="BaseGethKind">
+		<defName>GethHunterPlayer</defName>
 		<label>Geth</label>
-		<race>Geth</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -73,11 +69,6 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>100</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
-		<weaponTags>
-		</weaponTags>
 	</PawnKindDef>
 </Defs>

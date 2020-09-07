@@ -10,7 +10,7 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
 		<spawnCategories>
-			<li>GethJuggernautSoldierBackstory</li>
+			<li>GethJuggernautPlayerBackstory</li>
 		</spawnCategories>
 		<forcedTraits>
 			<li>
@@ -54,7 +54,7 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
-			<li>GethJuggernautSoldierBackstory</li>
+			<li>GethJuggernautPlayerBackstory</li>
 		</spawnCategories>
 		<relationSettings>
 			<relationChanceModifierLover>0</relationChanceModifierLover>

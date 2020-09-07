@@ -13,7 +13,7 @@
 		<description>Having travelled across the mysterious Perseus Veil, the Geth have landed on this rimworld.</description>
 		<pawnSingular>geth</pawnSingular>
 		<pawnsPlural>geth</pawnsPlural>
-		<basicMemberKind>BaseGeth</basicMemberKind>
+		<basicMemberKind>GethTrooper</basicMemberKind>
 		<listOrderPriority>10</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -86,24 +86,24 @@
 				<kindDef>Combat</kindDef>
 				<commonality>100</commonality>
 				<options>
-					<BaseGethTrooper>250</BaseGethTrooper>
-					<BaseGethHunter>50</BaseGethHunter>
-					<BaseGethInfiltrator>50</BaseGethInfiltrator>
-					<BaseGethPyro>50</BaseGethPyro>
-					<BaseGethRocketTrooper>50</BaseGethRocketTrooper>
-					<BaseGethPrime>40</BaseGethPrime>
+					<GethTrooper>250</GethTrooper>
+					<GethHunter>50</GethHunter>
+					<GethInfiltrator>50</GethInfiltrator>
+					<GethPyro>50</GethPyro>
+					<GethRocketTrooper>50</GethRocketTrooper>
+					<GethPrime>40</GethPrime>
 				</options>
 			</li>
 			<li>
 				<!-- Peaceful Geth -->
 				<kindDef>Peaceful</kindDef>
 				<options>
-					<BaseGethTrooper>250</BaseGethTrooper>
-					<BaseGethHunter>50</BaseGethHunter>
-					<BaseGethInfiltrator>50</BaseGethInfiltrator>
-					<BaseGethPyro>50</BaseGethPyro>
-					<BaseGethRocketTrooper>50</BaseGethRocketTrooper>
-					<BaseGethPrime>40</BaseGethPrime>
+					<GethTrooper>250</GethTrooper>
+					<GethHunter>50</GethHunter>
+					<GethInfiltrator>50</GethInfiltrator>
+					<GethPyro>50</GethPyro>
+					<GethRocketTrooper>50</GethRocketTrooper>
+					<GethPrime>40</GethPrime>
 				</options>
 			</li>
 			<li>
@@ -117,25 +117,25 @@
 					<Dromedary>2</Dromedary>
 				</carriers>
 				<guards>
-					<BaseGethTrooper>250</BaseGethTrooper>
-					<BaseGethHunter>50</BaseGethHunter>
-					<BaseGethInfiltrator>50</BaseGethInfiltrator>
-					<BaseGethPyro>50</BaseGethPyro>
-					<BaseGethRocketTrooper>50</BaseGethRocketTrooper>
-					<BaseGethPrime>40</BaseGethPrime>
+					<GethTrooper>250</GethTrooper>
+					<GethHunter>50</GethHunter>
+					<GethInfiltrator>50</GethInfiltrator>
+					<GethPyro>50</GethPyro>
+					<GethRocketTrooper>50</GethRocketTrooper>
+					<GethPrime>40</GethPrime>
 				</guards>
 			</li>
 			<li>
 				<!-- Base defense, mainly ranged with melee mix-ins -->
 				<kindDef>Settlement</kindDef>
 				<options>
-					<BaseGeth>10</BaseGeth>
-					<BaseGethTrooper>250</BaseGethTrooper>
-					<BaseGethHunter>50</BaseGethHunter>
-					<BaseGethInfiltrator>50</BaseGethInfiltrator>
-					<BaseGethPyro>50</BaseGethPyro>
-					<BaseGethRocketTrooper>50</BaseGethRocketTrooper>
-					<BaseGethPrime>40</BaseGethPrime>
+					<GethPlayer>10</GethPlayer>
+					<GethTrooper>250</GethTrooper>
+					<GethHunter>50</GethHunter>
+					<GethInfiltrator>50</GethInfiltrator>
+					<GethPyro>50</GethPyro>
+					<GethRocketTrooper>50</GethRocketTrooper>
+					<GethPrime>40</GethPrime>
 				</options>
 			</li>
 		</pawnGroupMakers>

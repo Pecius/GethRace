@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- Geth Trader Pawn -->
-	<PawnKindDef>
-		<defName>BaseTraderGeth</defName>
+	<PawnKindDef ParentName="BaseGethKind" Name="BaseConsensusGethKind" Abstract="True">
 		<defaultFactionType>GethConsensus</defaultFactionType>
+		<biocodeWeaponChance>1.0</biocodeWeaponChance>
+	</PawnKindDef>
+	<!-- Geth Trader Pawn -->
+	<PawnKindDef ParentName="BaseConsensusGethKind">
+		<defName>BaseTraderGeth</defName>
 		<label>Geth</label>
-		<race>Geth</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -13,21 +15,15 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>80</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>GethPulseRifle</li>
 		</weaponTags>
-		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
 	<!-- Geth Trooper Pawn -->
-	<PawnKindDef>
-		<defName>BaseGethTrooper</defName>
-		<defaultFactionType>GethConsensus</defaultFactionType>
+	<PawnKindDef ParentName="BaseConsensusGethKind">
+		<defName>GethTrooper</defName>
 		<label>Geth Trooper</label>
-		<race>Geth</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -35,22 +31,16 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>80</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>GethPulseRifle</li>
 			<li>GethPlasmaSMG</li>
 		</weaponTags>
-		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
 	<!-- Geth Hunter Pawn -->
-	<PawnKindDef>
-		<defName>BaseGethHunter</defName>
-		<defaultFactionType>GethConsensus</defaultFactionType>
+	<PawnKindDef ParentName="BaseConsensusGethKind">
+		<defName>GethHunter</defName>
 		<label>Geth Hunter</label>
-		<race>Geth</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -58,21 +48,15 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>100</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>GethPlasmaShotgun</li>
 		</weaponTags>
-		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
 	<!-- Geth Infiltrator Pawn -->
-	<PawnKindDef>
-		<defName>BaseGethInfiltrator</defName>
-		<defaultFactionType>GethConsensus</defaultFactionType>
+	<PawnKindDef ParentName="BaseConsensusGethKind">
+		<defName>GethInfiltrator</defName>
 		<label>Geth Infiltrator</label>
-		<race>Geth</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -80,21 +64,15 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>100</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>GethJavelin</li>
 		</weaponTags>
-		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
 	<!-- Geth Pyro Pawn -->
-	<PawnKindDef>
-		<defName>BaseGethPyro</defName>
-		<defaultFactionType>GethConsensus</defaultFactionType>
+	<PawnKindDef ParentName="BaseConsensusGethKind">
+		<defName>GethPyro</defName>
 		<label>Geth Pyro</label>
-		<race>Geth</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -102,21 +80,15 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>100</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>GethFirestorm</li>
 		</weaponTags>
-		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
 	<!-- Geth Rocket Trooper Pawn -->
-	<PawnKindDef>
-		<defName>BaseGethRocketTrooper</defName>
-		<defaultFactionType>GethConsensus</defaultFactionType>
+	<PawnKindDef ParentName="BaseConsensusGethKind">
+		<defName>GethRocketTrooper</defName>
 		<label>Geth Rocket Trooper</label>
-		<race>Geth</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -124,19 +96,14 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>100</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>ML77MissileLauncher</li>
 		</weaponTags>
-		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
 	<!-- Geth Prime Pawn -->
-	<PawnKindDef>
-		<defName>BaseGethPrime</defName>
-		<defaultFactionType>GethConsensus</defaultFactionType>
+	<PawnKindDef ParentName="BaseConsensusGethKind">
+		<defName>GethPrime</defName>
 		<label>Geth Prime</label>
 		<race>GethPrime</race>
 		<backstoryFiltersOverride>
@@ -146,22 +113,20 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>80</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>GethSpitfire</li>
 		</weaponTags>
-		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
 	<!-- Heretic Geth Faction -->
+	<PawnKindDef ParentName="BaseGethKind" Name="BaseGethHereticKind" Abstract="True">
+		<defaultFactionType>GethHeretic</defaultFactionType>
+		<biocodeWeaponChance>1.0</biocodeWeaponChance>
+	</PawnKindDef>
 	<!-- Geth Platform Pawn -->
-	<PawnKindDef>
-		<defName>BaseHereticGeth</defName>
-		<defaultFactionType>HereticGeth</defaultFactionType>
+	<PawnKindDef ParentName="BaseGethHereticKind">
+		<defName>GethHeretic</defName>
 		<label>Geth</label>
-		<race>Geth</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -169,21 +134,15 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>80</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>GethRifle</li>
 		</weaponTags>
-		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
 	<!-- Heretic Geth Trooper Pawn -->
-	<PawnKindDef>
-		<defName>BaseHereticGethTrooper</defName>
-		<defaultFactionType>HereticGeth</defaultFactionType>
+	<PawnKindDef ParentName="BaseGethHereticKind">
+		<defName>GethHereticTrooper</defName>
 		<label>Geth Trooper</label>
-		<race>Geth</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -191,22 +150,16 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>80</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>GethPulseRifle</li>
 			<li>GethPlasmaSMG</li>
 		</weaponTags>
-		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
 	<!-- Heretic Geth Hunter Pawn -->
-	<PawnKindDef>
-		<defName>BaseHereticGethHunter</defName>
-		<defaultFactionType>HereticGeth</defaultFactionType>
+	<PawnKindDef ParentName="BaseGethHereticKind">
+		<defName>GethHereticHunter</defName>
 		<label>Geth Hunter</label>
-		<race>Geth</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -214,21 +167,15 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>100</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>GethPlasmaShotgun</li>
 		</weaponTags>
-		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
 	<!-- Heretic Geth Infiltrator Pawn -->
-	<PawnKindDef>
-		<defName>BaseHereticGethInfiltrator</defName>
-		<defaultFactionType>HereticGeth</defaultFactionType>
+	<PawnKindDef ParentName="BaseGethHereticKind">
+		<defName>GethHereticInfiltrator</defName>
 		<label>Geth Infiltrator</label>
-		<race>Geth</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -236,21 +183,15 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>100</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>GethJavelin</li>
 		</weaponTags>
-		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
 	<!-- Heretic Geth Pyro Pawn -->
-	<PawnKindDef>
-		<defName>BaseHereticGethPyro</defName>
-		<defaultFactionType>HereticGeth</defaultFactionType>
+	<PawnKindDef ParentName="BaseGethHereticKind">
+		<defName>GethHereticPyro</defName>
 		<label>Geth Pyro</label>
-		<race>Geth</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -258,21 +199,15 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>100</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>GethFirestorm</li>
 		</weaponTags>
-		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
 	<!-- Heretic Geth Rocket Trooper Pawn -->
-	<PawnKindDef>
-		<defName>BaseHereticGethRocketTrooper</defName>
-		<defaultFactionType>HereticGeth</defaultFactionType>
+	<PawnKindDef ParentName="BaseGethHereticKind">
+		<defName>GethHereticRocketTrooper</defName>
 		<label>Geth Rocket Trooper</label>
-		<race>Geth</race>
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -280,19 +215,14 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>100</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>ML77MissileLauncher</li>
 		</weaponTags>
-		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
 	<!-- Heretic Geth Prime Pawn -->
-	<PawnKindDef>
-		<defName>BaseHereticGethPrime</defName>
-		<defaultFactionType>HereticGeth</defaultFactionType>
+	<PawnKindDef ParentName="BaseGethHereticKind">
+		<defName>GethHereticPrime</defName>
 		<label>Geth Prime</label>
 		<race>GethPrime</race>
 		<backstoryFiltersOverride>
@@ -302,13 +232,9 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<destroyGearOnDrop>false</destroyGearOnDrop>
-		<minGenerationAge>20</minGenerationAge>
 		<combatPower>80</combatPower>
-		<weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>GethSpitfire</li>
 		</weaponTags>
-		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 	</PawnKindDef>
 </Defs>

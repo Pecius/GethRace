@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<FactionDef Abstract="True" Name="HereticGethFactionBase">
+	<FactionDef Abstract="True" Name="GethHereticFactionBase">
 		<homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
 		<colorSpectrum>
 			<li>(1.0,1.0,1.0)</li>
 		</colorSpectrum>
 	</FactionDef>
 	<FactionDef>
-		<defName>HereticGeth</defName>
+		<defName>GethHeretic</defName>
 		<label>Geth Heretics</label>
 		<description>Having travelled across the mysterious Perseus Veil, the Geth have landed on this rimworld, however these geth seek to destroy everyone.</description>
 		<pawnSingular>geth</pawnSingular>
 		<pawnsPlural>geth</pawnsPlural>
-		<basicMemberKind>BaseHereticGeth</basicMemberKind>
+		<basicMemberKind>GethHeretic</basicMemberKind>
 		<listOrderPriority>10</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -67,25 +67,25 @@
 				<kindDef>Combat</kindDef>
 				<commonality>100</commonality>
 				<options>
-					<BaseHereticGethTrooper>250</BaseHereticGethTrooper>
-					<BaseHereticGethHunter>50</BaseHereticGethHunter>
-					<BaseHereticGethInfiltrator>50</BaseHereticGethInfiltrator>
-					<BaseHereticGethPyro>50</BaseHereticGethPyro>
-					<BaseHereticGethRocketTrooper>50</BaseHereticGethRocketTrooper>
-					<BaseHereticGethPrime>40</BaseHereticGethPrime>
+					<GethHereticTrooper>250</GethHereticTrooper>
+					<GethHereticHunter>50</GethHereticHunter>
+					<GethHereticInfiltrator>50</GethHereticInfiltrator>
+					<GethHereticPyro>50</GethHereticPyro>
+					<GethHereticRocketTrooper>50</GethHereticRocketTrooper>
+					<GethHereticPrime>40</GethHereticPrime>
 				</options>
 			</li>
 			<li>
 				<!-- Base defense, mainly ranged with melee mix-ins -->
 				<kindDef>Settlement</kindDef>
 				<options>
-					<BaseHereticGeth>10</BaseHereticGeth>
-					<BaseHereticGethTrooper>250</BaseHereticGethTrooper>
-					<BaseHereticGethHunter>50</BaseHereticGethHunter>
-					<BaseHereticGethInfiltrator>50</BaseHereticGethInfiltrator>
-					<BaseHereticGethPyro>50</BaseHereticGethPyro>
-					<BaseHereticGethRocketTrooper>50</BaseHereticGethRocketTrooper>
-					<BaseHereticGethPrime>40</BaseHereticGethPrime>
+					<GethHeretic>10</GethHeretic>
+					<GethHereticTrooper>250</GethHereticTrooper>
+					<GethHereticHunter>50</GethHereticHunter>
+					<GethHereticInfiltrator>50</GethHereticInfiltrator>
+					<GethHereticPyro>50</GethHereticPyro>
+					<GethHereticRocketTrooper>50</GethHereticRocketTrooper>
+					<GethHereticPrime>40</GethHereticPrime>
 				</options>
 			</li>
 		</pawnGroupMakers>

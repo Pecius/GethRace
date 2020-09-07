@@ -6,10 +6,10 @@
 			<alienslavekinds>
 				<li>
 					<kindDefs>
-						<li>BaseGeth</li>
-						<li>BaseGethTrooperSoldier</li>
-						<li>BaseGethJuggernautSoldier</li>
-						<li>BaseGethHunterInfiltrator</li>
+						<li>GethPlayer</li>
+						<li>GethTrooperPlayer</li>
+						<li>GethJuggernautPlayer</li>
+						<li>GethHunterPlayer</li>
 					</kindDefs>
 					<chance>20.0</chance>
 				</li>
@@ -17,10 +17,10 @@
 			<alienrefugeekinds>
 				<li>
 					<kindDefs>
-						<li>BaseGeth</li>
-						<li>BaseGethTrooperSoldier</li>
-						<li>BaseGethJuggernautSoldier</li>
-						<li>BaseGethHunterInfiltrator</li>
+						<li>GethPlayer</li>
+						<li>GethTrooperPlayer</li>
+						<li>GethJuggernautPlayer</li>
+						<li>GethHunterPlayer</li>
 					</kindDefs>
 					<chance>20.0</chance>
 				</li>
@@ -30,10 +30,10 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>BaseGeth</li>
-								<li>BaseGethTrooperSoldier</li>
-								<li>BaseGethJuggernautSoldier</li>
-								<li>BaseGethHunterInfiltrator</li>
+								<li>GethPlayer</li>
+								<li>GethTrooperPlayer</li>
+								<li>GethJuggernautPlayer</li>
+								<li>GethHunterPlayer</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
@@ -48,10 +48,10 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>BaseGeth</li>
-								<li>BaseGethTrooperSoldier</li>
-								<li>BaseGethJuggernautSoldier</li>
-								<li>BaseGethHunterInfiltrator</li>
+								<li>GethPlayer</li>
+								<li>GethTrooperPlayer</li>
+								<li>GethJuggernautPlayer</li>
+								<li>GethHunterPlayer</li>
 							</kindDefs>
 							<chance>20.0</chance>
 						</li>
