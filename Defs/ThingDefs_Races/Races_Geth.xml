@@ -16,6 +16,9 @@
 			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
 		</statBases>
+		<tradeTags>
+			<li MayRequire="kentington.saveourship2">AnimalInsectSpace</li>
+		</tradeTags>
 		<tools>
 			<li>
 				<label>left fist</label>
