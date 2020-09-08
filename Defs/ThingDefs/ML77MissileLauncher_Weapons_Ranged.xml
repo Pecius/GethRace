@@ -95,7 +95,6 @@
 				<explosiveDamageType>Bomb</explosiveDamageType>
 				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
 			</li>
-			<li Class="CompProperties_BiocodableWeapon"/>
 		</comps>
 	</ThingDef>
 </Defs>
