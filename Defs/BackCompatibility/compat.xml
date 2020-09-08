@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<PawnExtensions.DefBackCompatibility>
+		<PawnKindDef>
+			<BaseGeth>GethPlayer</BaseGeth>
+			<BaseGethTrooper>GethTrooper</BaseGethTrooper>
+			<BaseGethHunter>GethHunter</BaseGethHunter>
+			<BaseGethInfiltrator>GethInfiltrator</BaseGethInfiltrator>
+			<BaseGethPyro>GethPyro</BaseGethPyro>
+			<BaseGethRocketTrooper>GethRocketTrooper</BaseGethRocketTrooper>
+			<BaseGethPrime>GethPrime</BaseGethPrime>
+			<BaseHereticGeth>GethHeretic</BaseHereticGeth>
+			<BaseHereticGethTrooper>GethHereticTrooper</BaseHereticGethTrooper>
+			<BaseHereticGethHunter>GethHereticHunter</BaseHereticGethHunter>
+			<BaseHereticGethInfiltrator>GethHereticInfiltrator</BaseHereticGethInfiltrator>
+			<BaseHereticGethPyro>GethHereticPyro</BaseHereticGethPyro>
+			<BaseHereticGethRocketTrooper>GethHereticRocketTrooper</BaseHereticGethRocketTrooper>
+			<BaseHereticGethPrime>GethHereticPrime</BaseHereticGethPrime>
+		</PawnKindDef>
+		<FactionDef>
+			<HereticGeth>GethHeretic</HereticGeth>
+		</FactionDef>
+	</PawnExtensions.DefBackCompatibility>
+</Defs>
