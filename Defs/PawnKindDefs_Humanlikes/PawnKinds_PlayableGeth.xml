@@ -4,13 +4,6 @@
 		<defaultFactionType>PlayerColony</defaultFactionType>
 		<label>Geth</label>
 		<race>Geth</race>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>GethPlatformBackstory</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
 		<destroyGearOnDrop>false</destroyGearOnDrop>
 		<minGenerationAge>20</minGenerationAge>
 		<combatPower>80</combatPower>
