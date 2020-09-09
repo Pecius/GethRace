@@ -33,7 +33,7 @@
 	<AlienRace.BackstoryDef>
 		<defName>Geth_RocketTrooper</defName>
 		<title>Geth Rocket Trooper</title>
-		<titleShort>Geth Rocket Trooper</titleShort>
+		<titleShort>Rocket Trooper</titleShort>
 		<baseDescription>Geth Rocket Troopers bombard their foe's from long range using rockets.</baseDescription>
 		<bodyTypeMale>GethRocketTrooper</bodyTypeMale>
 		<bodyTypeFemale>GethRocketTrooper</bodyTypeFemale>
