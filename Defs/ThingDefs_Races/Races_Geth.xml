@@ -540,6 +540,14 @@
 						<li>WoundInfection</li>
 					</hediffs>
 				</diseaseImmunity>
+				<suppressJobs>
+					<hard>
+						<li>Vomit</li>
+					</hard>
+					<soft>
+						<li MayRequire="Ludeon.RimWorld.Royalty">Meditate</li>
+					</soft>
+				</suppressJobs>
 			</li>
 		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>
