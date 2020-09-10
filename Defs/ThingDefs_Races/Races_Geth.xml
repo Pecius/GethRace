@@ -298,6 +298,36 @@
 							</onWounded>
 						</calls>
 					</li>
+					<li>
+						<backstory>Geth_Engineer06</backstory>
+						<calls>
+							<onAim>
+								<sound>Geth_Trooper_Aim</sound>
+								<chance>0.95</chance>
+							</onAim>
+							<onDeath>
+								<sound>Geth_Trooper_Death</sound>
+							</onDeath>
+							<onWounded>
+								<sound>Geth_Trooper_Wounded</sound>
+							</onWounded>
+						</calls>
+					</li>
+					<li>
+						<backstory>Geth_Engineer07</backstory>
+						<calls>
+							<onAim>
+								<sound>Geth_Trooper_Aim</sound>
+								<chance>0.95</chance>
+							</onAim>
+							<onDeath>
+								<sound>Geth_Trooper_Death</sound>
+							</onDeath>
+							<onWounded>
+								<sound>Geth_Trooper_Wounded</sound>
+							</onWounded>
+						</calls>
+					</li>
 					<!-- Geth Trooper Soldier -->
 					<li>
 						<backstory>Geth_TS01</backstory>
@@ -347,6 +377,21 @@
 					<!-- Geth Juggernaut Soldier -->
 					<li>
 						<backstory>Geth_JuggernautSoldier</backstory>
+						<calls>
+							<onAim>
+								<sound>Geth_Prime_Aim</sound>
+								<chance>0.95</chance>
+							</onAim>
+							<onDeath>
+								<sound>Geth_Prime_Death</sound>
+							</onDeath>
+							<onWounded>
+								<sound>Geth_Prime_Wounded</sound>
+							</onWounded>
+						</calls>
+					</li>
+					<li>
+						<backstory>Geth_JuggernautSoldier02</backstory>
 						<calls>
 							<onAim>
 								<sound>Geth_Prime_Aim</sound>
@@ -519,6 +564,8 @@
 						<li>GethPyro</li>
 						<li>ME1GethRed</li>
 						<li>ME1GethTrooper</li>
+						<li>GethOlive</li>
+						<li>WhiteGeth</li>
 					</alienbodytypes>
 				</alienPartGenerator>
 			</generalSettings>

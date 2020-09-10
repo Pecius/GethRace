@@ -78,4 +78,53 @@
 			</li>
 		</forcedTraits>
 	</AlienRace.BackstoryDef>
+	<!-- Geth Playable Juggernaut Adult 02 -->
+	<AlienRace.BackstoryDef>
+		<defName>Geth_JuggernautSoldier02</defName>
+		<title>Geth Juggernaut</title>
+		<titleShort>Juggernaut</titleShort>
+		<baseDescription>The Geth Juggernaut is a heavy geth infantry platform. Like the Geth Prime, it towers above ground forces as an intimidating presence on the battlefield.</baseDescription>
+		<bodyTypeMale>GethDestroyer</bodyTypeMale>
+		<bodyTypeFemale>GethDestroyer</bodyTypeFemale>
+		<bodyTypeGlobal>GethDestroyer</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>GethJuggernautSoldierBackstory</li>
+		</spawnCategories>
+		<relationSettings>
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
+		<forcedTraits>
+			<li>
+				<defName>GethNetworkedAI</defName>
+			</li>
+			<li>
+				<defName>GethSlowSpeed</defName>
+			</li>
+			<li>
+				<defName>GethReinforcedStructure</defName>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
 </Defs>

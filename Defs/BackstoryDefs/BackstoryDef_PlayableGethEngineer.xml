@@ -300,4 +300,112 @@
 			</li>
 		</forcedTraits>
 	</AlienRace.BackstoryDef>
+	<!-- Geth Engineer Adult 06 -->
+	<AlienRace.BackstoryDef>
+		<defName>Geth_Engineer06</defName>
+		<title>Geth Engineer</title>
+		<titleShort>Engineer</titleShort>
+		<baseDescription>Geth engineers are elite support specialists. Unique perception systems give geth an unsurpassed understanding of the battlefield.</baseDescription>
+		<bodyTypeMale>GethOlive</bodyTypeMale>
+		<bodyTypeFemale>GethOlive</bodyTypeFemale>
+		<bodyTypeGlobal>GethOlive</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>10</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>GethPlatformBackstory</li>
+		</spawnCategories>
+		<relationSettings>
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
+		<forcedTraits>
+			<li>
+				<defName>GethNetworkedAI</defName>
+			</li>
+			<li>
+				<defName>GethNimble</defName>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
+	<!-- Geth Engineer Adult 07 -->
+	<AlienRace.BackstoryDef>
+		<defName>Geth_Engineer07</defName>
+		<title>Geth Engineer</title>
+		<titleShort>Engineer</titleShort>
+		<baseDescription>Geth engineers are elite support specialists. Unique perception systems give geth an unsurpassed understanding of the battlefield.</baseDescription>
+		<bodyTypeMale>WhiteGeth</bodyTypeMale>
+		<bodyTypeFemale>WhiteGeth</bodyTypeFemale>
+		<bodyTypeGlobal>WhiteGeth</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>10</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>GethPlatformBackstory</li>
+		</spawnCategories>
+		<relationSettings>
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
+		<forcedTraits>
+			<li>
+				<defName>GethNetworkedAI</defName>
+			</li>
+			<li>
+				<defName>GethNimble</defName>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>2</degree>
+			</li>
+		</forcedTraits>
+	</AlienRace.BackstoryDef>
 </Defs>

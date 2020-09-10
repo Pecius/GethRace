@@ -16,6 +16,7 @@
 					<alienbodytypes>
 						<li>GethPrime</li>
 						<li>RedJuggernaut</li>
+						<li>GethDestroyer</li>
 					</alienbodytypes>
 				</alienPartGenerator>
 			</generalSettings>

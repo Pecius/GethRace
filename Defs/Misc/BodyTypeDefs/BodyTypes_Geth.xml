@@ -60,4 +60,19 @@
 		<label>Geth Prime</label>
 		<bodyNakedGraphicPath>Geth/Base/GethPrime</bodyNakedGraphicPath>
 	</BodyTypeDef>
+	<BodyTypeDef>
+		<defName>GethDestroyer</defName>
+		<label>Geth Destroyer</label>
+		<bodyNakedGraphicPath>Geth/Base/GethDestroyer</bodyNakedGraphicPath>
+	</BodyTypeDef>
+	<BodyTypeDef>
+		<defName>GethOlive</defName>
+		<label>Geth</label>
+		<bodyNakedGraphicPath>Geth/Base/GethOlive</bodyNakedGraphicPath>
+	</BodyTypeDef>
+	<BodyTypeDef>
+		<defName>WhiteGeth</defName>
+		<label>Geth</label>
+		<bodyNakedGraphicPath>Geth/Base/WhiteGeth</bodyNakedGraphicPath>
+	</BodyTypeDef>
 </Defs>
