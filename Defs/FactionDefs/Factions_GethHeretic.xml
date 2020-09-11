@@ -20,6 +20,7 @@
 		<canMakeRandomly>true</canMakeRandomly>
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
+		<autoFlee>false</autoFlee>
 		<leaderTitle>Prime</leaderTitle>
 		<hairTags>
 			<li></li>
