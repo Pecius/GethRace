@@ -54,9 +54,7 @@
   <ItemGroup>
     <Compile Include="GethCooling.cs" />
     <Compile Include="GethDefOf.cs" />
-    <None Include="Overclocking.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="Recharge.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\PawnExtensions\Assemblies\PawnExtensions.dll">
