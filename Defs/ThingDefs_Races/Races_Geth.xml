@@ -143,6 +143,7 @@
 								<sound>Geth_Trooper_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Trooper_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -158,6 +159,7 @@
 								<sound>Geth_Hunter_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Hunter_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -173,6 +175,7 @@
 								<sound>Geth_Hunter_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Hunter_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -188,6 +191,7 @@
 								<sound>Geth_Hunter_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Hunter_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -203,6 +207,7 @@
 								<sound>Geth_Pyro_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Pyro_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -218,6 +223,7 @@
 								<sound>Geth_Prime_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Prime_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -234,6 +240,7 @@
 								<sound>Geth_Trooper_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Trooper_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -249,6 +256,7 @@
 								<sound>Geth_Trooper_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Trooper_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -264,6 +272,7 @@
 								<sound>Geth_Trooper_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Trooper_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -279,6 +288,7 @@
 								<sound>Geth_Trooper_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Trooper_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -294,6 +304,7 @@
 								<sound>Geth_Trooper_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Trooper_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -309,6 +320,7 @@
 								<sound>Geth_Trooper_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Trooper_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -324,6 +336,7 @@
 								<sound>Geth_Trooper_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Trooper_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -340,6 +353,7 @@
 								<sound>Geth_Hunter_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Hunter_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -355,6 +369,7 @@
 								<sound>Geth_Hunter_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Hunter_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -370,6 +385,7 @@
 								<sound>Geth_Hunter_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Hunter_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -386,6 +402,7 @@
 								<sound>Geth_Prime_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Prime_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -401,6 +418,7 @@
 								<sound>Geth_Prime_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Prime_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -417,6 +435,7 @@
 								<sound>Geth_Hunter_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Hunter_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -432,6 +451,7 @@
 								<sound>Geth_Hunter_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Hunter_Wounded</sound>
 							</onWounded>
 						</calls>
@@ -447,6 +467,7 @@
 								<sound>Geth_Hunter_Death</sound>
 							</onDeath>
 							<onWounded>
+								<cooldownRange>30~90</cooldownRange>
 								<sound>Geth_Hunter_Wounded</sound>
 							</onWounded>
 						</calls>
