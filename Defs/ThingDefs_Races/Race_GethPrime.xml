@@ -12,7 +12,7 @@
 				<immuneToAge>true</immuneToAge>
 				<canLayDown>true</canLayDown>
 				<alienPartGenerator>
-					<customDrawSize>(1.1, 1.1)</customDrawSize>
+					<customDrawSize>(1.4, 1.4)</customDrawSize>
 					<alienbodytypes>
 						<li>GethPrime</li>
 						<li>RedJuggernaut</li>
