@@ -60,9 +60,9 @@
 			<li>
 				<label>Enhanced perception</label>
 				<description>{PAWN_nameDef} sports unique perception systems, increasing their shooting accuracy.</description>
-				<statFactors>
-					<ShootingAccuracyPawn>1.05</ShootingAccuracyPawn>
-				</statFactors>
+				<statOffsets>
+					<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+				</statOffsets>
 			</li>
 		</degreeDatas>
 	</TraitDef>
