@@ -64,8 +64,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>40</min>
-					<max>40</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9</min>
@@ -89,8 +89,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>80</min>
-					<max>80</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9</min>
@@ -114,8 +114,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>100</min>
-					<max>100</max>
+					<min>40</min>
+					<max>40</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9</min>
@@ -139,8 +139,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>60</min>
-					<max>60</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9</min>
@@ -164,8 +164,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>40</min>
-					<max>40</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9</min>
@@ -189,8 +189,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>40</min>
-					<max>40</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9</min>
@@ -214,8 +214,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>40</min>
-					<max>40</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9</min>
@@ -240,8 +240,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>40</min>
-					<max>40</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9541177</min>
@@ -265,8 +265,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>40</min>
-					<max>40</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9541177</min>
@@ -290,8 +290,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>40</min>
-					<max>40</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9541177</min>
@@ -316,8 +316,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>40</min>
-					<max>40</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9541177</min>
@@ -341,8 +341,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>80</min>
-					<max>80</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9541177</min>
@@ -366,8 +366,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>40</min>
-					<max>40</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9541177</min>
@@ -392,8 +392,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>40</min>
-					<max>40</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9541177</min>
@@ -417,8 +417,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>80</min>
-					<max>80</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9541177</min>
@@ -442,8 +442,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>40</min>
-					<max>40</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9541177</min>
@@ -468,8 +468,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>40</min>
-					<max>40</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9541177</min>
@@ -493,8 +493,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>80</min>
-					<max>80</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9541177</min>
@@ -518,8 +518,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>40</min>
-					<max>40</max>
+					<min>20</min>
+					<max>20</max>
 				</volumeRange>
 				<pitchRange>
 					<min>0.9541177</min>
