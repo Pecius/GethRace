@@ -139,7 +139,7 @@
 				</options>
 			</li>
 		</pawnGroupMakers>
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<settlementNameMaker>NamerGethBases</settlementNameMaker>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 	</FactionDef>
 </Defs>
