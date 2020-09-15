@@ -521,6 +521,9 @@
 					<li>SleptOnGround</li>
 					<li>ArtifactMoodBoost</li>
 					<li>Sick</li>
+					<li>NeedOutdoors</li>
+					<li>NeedBeauty</li>
+					<li>KilledColonyAnimal</li>
 				</cannotReceiveThoughts>
 			</thoughtSettings>
 			<relationSettings></relationSettings>
