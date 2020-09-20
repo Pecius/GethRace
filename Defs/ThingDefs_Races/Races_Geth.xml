@@ -545,6 +545,7 @@
 			<li Class="PawnExtensions.ExtensionsDef">
 				<feelsNoPain>true</feelsNoPain>
 				<hasPassions>false</hasPassions>
+				<disableBreathMote>true</disableBreathMote>
 				<hediffOnDamage>
 					<li>
 						<damageDef>EMP</damageDef>
